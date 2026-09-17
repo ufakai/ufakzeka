@@ -1,22 +1,22 @@
 diff --git a/conversion/base.py b/conversion/base.py
-index daae28e..804798f 100644
+index 8f6b351..581c6f1 100644
 --- a/conversion/base.py
 +++ b/conversion/base.py
-@@ -1531,6 +1531,9 @@ class TextModel(ModelBase):
-         if chkhsh == "66b8d4e19ab16c3bfd89bce5d785fb7e0155e8648708a1f42077cb9fe002c273":
-             # ref: https://huggingface.co/alvarobartt/grok-2-tokenizer
-             res = "grok-2"
+@@ -1621,6 +1621,9 @@ class TextModel(ModelBase):
+         if chkhsh == "1444df51289cfa8063b96f0e62b1125440111bc79a52003ea14b6eac7016fd5f":
+             # ref: https://huggingface.co/openbmb/MiniCPM-V-4_6
+             res = "qwen35"
 +        if chkhsh == "653660222fb704f61cbf2b618a8ae6502b7f8b20c980f9a5de07ed78e13319cd":
 +            # ref: https://huggingface.co/ufakai/ufakzeka-1
 +            res = "ufakzeka"
-         if chkhsh == "b3d1dd861f1d4c5c0d2569ce36baf3f90fe8a102db3de50dd71ff860d91be3df":
-             # ref: https://huggingface.co/aari1995/German_Semantic_V3
-             res = "jina-v2-de"
+         if chkhsh == "66b8d4e19ab16c3bfd89bce5d785fb7e0155e8648708a1f42077cb9fe002c273":
+             # ref: https://huggingface.co/alvarobartt/grok-2-tokenizer
+             res = "grok-2"
 diff --git a/convert_hf_to_gguf_update.py b/convert_hf_to_gguf_update.py
-index e5d3196..8fcb8ec 100755
+index 3a15a6f..7192dab 100755
 --- a/convert_hf_to_gguf_update.py
 +++ b/convert_hf_to_gguf_update.py
-@@ -184,6 +184,7 @@ pre_computed_hashes = [
+@@ -185,6 +185,7 @@ pre_computed_hashes = [
      {"name": "kimi-k2",   "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/moonshotai/Kimi-K2-Base",   "chkhsh": "81212dc7cdb7e0c1074ca62c5aeab0d43c9f52b8a737be7b12a777c953027890"},
      {"name": "qwen2",     "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B", "chkhsh": "d4540891389ea895b53b399da6ac824becc30f2fba0e9ddbb98f92e55ca0e97c"},
      {"name": "qwen35",    "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/openbmb/MiniCPM-V-4_6", "chkhsh": "1444df51289cfa8063b96f0e62b1125440111bc79a52003ea14b6eac7016fd5f"},
@@ -25,10 +25,10 @@ index e5d3196..8fcb8ec 100755
      # jina-v2-de variants
      {"name": "jina-v2-de", "tokt": TOKENIZER_TYPE.BPE, "repo": "https://huggingface.co/aari1995/German_Semantic_V3", "chkhsh": "b3d1dd861f1d4c5c0d2569ce36baf3f90fe8a102db3de50dd71ff860d91be3df"},
 diff --git a/src/llama-vocab.cpp b/src/llama-vocab.cpp
-index ff926ce..7d190b6 100644
+index ee65faf..737e072 100644
 --- a/src/llama-vocab.cpp
 +++ b/src/llama-vocab.cpp
-@@ -478,6 +478,12 @@ struct llm_tokenizer_bpe : llm_tokenizer {
+@@ -488,6 +488,12 @@ struct llm_tokenizer_bpe : llm_tokenizer {
                      "(?:'[sS]|'[tT]|'[rR][eE]|'[vV][eE]|'[mM]|'[lL][lL]|'[dD])|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}{1}| ?[^\\s\\p{L}\\p{N}\\r\\n]+|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+",
                  };
                  break;
@@ -41,7 +41,7 @@ index ff926ce..7d190b6 100644
              case LLAMA_VOCAB_PRE_TYPE_GROK_2:
                  regex_exprs = {
                      // original regex from tokenizer.json
-@@ -2358,6 +2364,10 @@ void llama_vocab::impl::load(llama_model_loader & ml, const LLM_KV & kv) {
+@@ -2376,6 +2382,10 @@ void llama_vocab::impl::load(llama_model_loader & ml, const LLM_KV & kv) {
                  tokenizer_pre == "kimi-k2") {
                  pre_type = LLAMA_VOCAB_PRE_TYPE_KIMI_K2;
                  clean_spaces = false;
@@ -53,14 +53,14 @@ index ff926ce..7d190b6 100644
                  tokenizer_pre == "grok-2") {
                  pre_type = LLAMA_VOCAB_PRE_TYPE_GROK_2;
 diff --git a/src/llama-vocab.h b/src/llama-vocab.h
-index b7c2892..e0e8730 100644
+index 65293c0..3fb061f 100644
 --- a/src/llama-vocab.h
 +++ b/src/llama-vocab.h
-@@ -65,6 +65,7 @@ enum llama_vocab_pre_type {
-     LLAMA_VOCAB_PRE_TYPE_GRANITE_EMB_MULTI = 54,
-     LLAMA_VOCAB_PRE_TYPE_MELLUM2           = 55,
+@@ -67,6 +67,7 @@ enum llama_vocab_pre_type {
      LLAMA_VOCAB_PRE_TYPE_LAGUNA            = 56,
-+    LLAMA_VOCAB_PRE_TYPE_UFAKZEKA          = 57,
+     LLAMA_VOCAB_PRE_TYPE_HY_V4             = 57,
+     LLAMA_VOCAB_PRE_TYPE_SPARK2_5          = 58,
++    LLAMA_VOCAB_PRE_TYPE_UFAKZEKA          = 59,
  };
  
  struct LLM_KV;
