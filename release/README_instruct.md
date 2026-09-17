@@ -107,9 +107,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 tok = AutoTokenizer.from_pretrained("ufakai/ufakzeka-1")
 model = AutoModelForCausalLM.from_pretrained("ufakai/ufakzeka-1")
 msgs = [{"role": "user", "content": "Bana kısa bir masal anlat."}]
-ids = tok.apply_chat_template(msgs, add_generation_prompt=True, return_tensors="pt")
-out = model.generate(ids, max_new_tokens=520, do_sample=True, temperature=0.3, top_p=0.9, top_k=40)
-print(tok.decode(out[0][ids.shape[1]:], skip_special_tokens=True))
+inputs = tok.apply_chat_template(msgs, add_generation_prompt=True, return_dict=True, return_tensors="pt")
+out = model.generate(**inputs, max_new_tokens=520, do_sample=True, temperature=0.3, top_p=0.9, top_k=40)
+print(tok.decode(out[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True))
 ```
 
 GGUF files (f16 and q8_0) are in `ufakai/ufakzeka-1-GGUF`. They need a llama.cpp built with the small pre-tokenizer patch shipped next to them (see the tokenizer note below); stock llama.cpp, Ollama and LM Studio will run them once that patch is upstream. Both reproduce the transformers model: tokenization is identical, f16 matches to 0.002 nats mean logit difference with no top-1 changes over 34 sampled positions, q8_0 to 0.03 nats with one change, and both give the same greedy answers on an eight-prompt check. No q4 file is published: on an earlier checkpoint of this model a 4-bit quantisation was 5 percent worse in perplexity and changed greedy answers, and the whole f16 file is only 367 MB. Recommended sampling: temperature 0.3, top_p 0.9, top_k 40, no repetition penalty and no DRY (either suppresses repeated digit tokens and breaks the column arithmetic). Give arithmetic answers at least 420 new tokens; the working is long by design.

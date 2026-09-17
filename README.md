@@ -31,9 +31,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 tok = AutoTokenizer.from_pretrained("ufakai/ufakzeka-1")
 model = AutoModelForCausalLM.from_pretrained("ufakai/ufakzeka-1")
 msgs = [{"role": "user", "content": "Bana kısa bir masal anlat."}]
-ids = tok.apply_chat_template(msgs, add_generation_prompt=True, return_tensors="pt")
-out = model.generate(ids, max_new_tokens=520, do_sample=True, temperature=0.3, top_p=0.9, top_k=40)
-print(tok.decode(out[0][ids.shape[1]:], skip_special_tokens=True))
+inputs = tok.apply_chat_template(msgs, add_generation_prompt=True, return_dict=True, return_tensors="pt")
+out = model.generate(**inputs, max_new_tokens=520, do_sample=True, temperature=0.3, top_p=0.9, top_k=40)
+print(tok.decode(out[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True))
 ```
 
 For llama.cpp, use the GGUF files and read the tokenizer note in `release/README_gguf.md`.
