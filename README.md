@@ -42,6 +42,18 @@ For llama.cpp, use the GGUF files and read the tokenizer note in `release/README
 
 The jobs run on [Modal](https://modal.com); `modal/train.py`, `modal/sft.py` and `modal/evaluate.py` are the entrypoints. Data sources and their licences are listed in `release/ATTRIBUTION.md`. The spend ledger in `docs/spend-ledger.md` records what the project cost. The data-generation and judge scripts call a chat-completions API (the common JSON format): set `UFAKZEKA_LLM_API_URL`, `UFAKZEKA_LLM_API_KEY` (or put the key in `~/.ufakzeka/llm_api_key`), `UFAKZEKA_LLM_MODEL` and `UFAKZEKA_JUDGE_MODEL`. The identifiers of the models used for this release are not included.
 
+## Citation
+
+```
+@misc{ufakzeka1,
+  title        = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
+  author       = {Teke, Sait Furkan},
+  year         = {2026},
+  howpublished = {Technical report, ufak AI},
+  url          = {https://ufakai.com/reports/ufakzeka-1.pdf}
+}
+```
+
 ## License
 
 Code, weights and the data recipe are released under the Apache License 2.0. See `LICENSE`. Third-party datasets keep their own licences, listed in `release/ATTRIBUTION.md`.

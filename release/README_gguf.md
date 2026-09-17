@@ -34,3 +34,15 @@ The tokenizer is a byte-level BPE trained on Turkish whose pre-tokenizer is the 
 ## Limitations
 
 151M parameters, a research model rather than an assistant: it holds a short Turkish conversation and does single-turn column arithmetic, but it invents facts it does not have, cannot write code, can lose a correct arithmetic answer on a follow-up turn, and can confuse who is who after a long story. It has no knowledge after summer 2026. Full details, evaluation numbers and licences are in the [model card](https://huggingface.co/ufakai/ufakzeka-1).
+
+## Citation
+
+```
+@misc{ufakzeka1,
+  title        = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
+  author       = {Teke, Sait Furkan},
+  year         = {2026},
+  howpublished = {Technical report, ufak AI},
+  url          = {https://ufakai.com/reports/ufakzeka-1.pdf}
+}
+```

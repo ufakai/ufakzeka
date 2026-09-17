@@ -76,9 +76,10 @@ A 151M model trained on web text: it will complete prompts with wrong facts, can
 
 ```
 @misc{ufakzeka1,
-  title  = {ufakzeka-1: a 151M Turkish language model trained from scratch},
-  author = {Teke, Sait Furkan},
-  year   = {2026},
-  url    = {https://ufakzeka.com}
+  title        = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
+  author       = {Teke, Sait Furkan},
+  year         = {2026},
+  howpublished = {Technical report, ufak AI},
+  url          = {https://ufakai.com/reports/ufakzeka-1.pdf}
 }
 ```
