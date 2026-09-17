@@ -1,0 +1,17 @@
+task: hellaswag_tr
+dataset_path: malhajar/hellaswag_tr-v0.2
+output_type: multiple_choice
+validation_split: validation
+test_split: validation
+doc_to_text: "{{ctx}}"
+doc_to_target: "{{label|int}}"
+doc_to_choice: "{{endings}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

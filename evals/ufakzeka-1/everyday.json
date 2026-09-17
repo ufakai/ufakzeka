@@ -1,0 +1,1035 @@
+{
+ "model": "models/ufakzeka-1-instruct-v103s5/hf",
+ "summary": {
+  "task": 83.6,
+  "correct": 82.8,
+  "natural": 82.8,
+  "warmth": 61.5,
+  "repetition": 0.0,
+  "turns": 61,
+  "usd": 0.0024,
+  "overall": 83.1
+ },
+ "conversations": [
+  [
+   {
+    "role": "user",
+    "content": "nabe"
+   },
+   {
+    "role": "assistant",
+    "content": "İyilik, sen nasılsın?"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "merhaba"
+   },
+   {
+    "role": "assistant",
+    "content": "Merhaba! Sana nasıl yardımcı olabilirim?"
+   },
+   {
+    "role": "user",
+    "content": "eee"
+   },
+   {
+    "role": "assistant",
+    "content": "Söyle, seni dinliyorum. Ne yapalım?"
+   },
+   {
+    "role": "user",
+    "content": "ne bileyim"
+   },
+   {
+    "role": "assistant",
+    "content": "Olur, ben önereyim o zaman: bir sohbet, bir hikaye ya da bir soru. Hangisi iyi gelir?"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "selam"
+   },
+   {
+    "role": "assistant",
+    "content": "Selam! Nasıl yardımcı olabilirim?"
+   },
+   {
+    "role": "user",
+    "content": "napıyosun"
+   },
+   {
+    "role": "assistant",
+    "content": "Buradayım, seninle sohbet ediyorum. Sen ne yapıyorsun?"
+   },
+   {
+    "role": "user",
+    "content": "boş ver, sen bir şey anlat"
+   },
+   {
+    "role": "assistant",
+    "content": "Bisikleti ilk aldığında zinciri sürekli çıkıyordu. Vidaları sıkmayı öğrendi, sonra fren balatalarını değiştirmeyi, en sonunda tekerlek çemberini merkezlemeyi. Mahalledeki tamirci ona tek bir şey söylemişti: acele edersen iki kere yaparsın. O cümleyi yıllarca hatırladı. Şimdi kendi dükkanında çalışıyor ve aynı cümleyi çıraklarına söylüyor, onlar da ilk başta pek dinlemiyor. Dinlemedikleri için kızmıyor; kendisi de dinlememişti."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir fıkra anlat"
+   },
+   {
+    "role": "assistant",
+    "content": "Tabii: Temel'e sormuşlar, 'En sevdiğin ay hangisi?' 'Kolay,' demiş, 'Gökteki.'"
+   },
+   {
+    "role": "user",
+    "content": "bir tane daha"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir tane daha: Nasrettin Hoca göle yoğurt mayalıyormuş. Gülmüşler: Hocam, problemlere birden çözüm bulursun. Hoca: Peki ya cevap veremezseniz?"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bilmece sor"
+   },
+   {
+    "role": "assistant",
+    "content": "İşte bir bilmece: Gökten düşer, yerde erir. Nedir?"
+   },
+   {
+    "role": "user",
+    "content": "bilmiyorum cevabı ne"
+   },
+   {
+    "role": "assistant",
+    "content": "Cevap: kar! Bir tane daha ister misin?"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir atasözü söyle"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir elin nesi var, iki elin sesi var. Anlamı: Birlikte çalışmak tek başına çalışmaktan daha verimlidir."
+   },
+   {
+    "role": "user",
+    "content": "anlamı ne"
+   },
+   {
+    "role": "assistant",
+    "content": "Anlamı: Birlikte hareket etmek, tek başına çalışmaktan daha verimlidir."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "nasıl pilav yapılır"
+   },
+   {
+    "role": "assistant",
+    "content": "Pirinç pilavı: 1 su bardağı pirinci yıkayıp süz. 2 kaşık tereyağında 1-2 dakika kavur, 1,5 su bardağı sıcak su ve tuz ekle. Kapağı kapat, kısık ateşte suyunu çekene kadar 12-15 dakika pişir, 10 dakika demlendir."
+   },
+   {
+    "role": "user",
+    "content": "pirinci ne kadar haşlamalıyım"
+   },
+   {
+    "role": "assistant",
+    "content": "Sıcak su kullan. 1 su bardağı pirinci 30-40 dakika kavur, soğuk su eklersen daha iyi tutar."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "menemen tarifi ver"
+   },
+   {
+    "role": "assistant",
+    "content": "Menemen: 2 domatesi rendele, 2 yeşil biberi doğra. Biberleri yağda soteleyip domatesi ekle, suyunu çekince 3 yumurtayı kır, karıştırarak pişir. Tuz ve pul biber ekle. Soğanlı seven kavrulmuş soğanla başlar."
+   },
+   {
+    "role": "user",
+    "content": "soğansız olur mu"
+   },
+   {
+    "role": "assistant",
+    "content": "Olur, ama önce biberleri sotele, domatesi ekle, yumurtayı kır, kısık ateşte pişir. Bu sırada menemene biraz yoğurt ekleyebilirsin, daha yumuşak olur."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "mercimek çorbası nasıl yapılır"
+   },
+   {
+    "role": "assistant",
+    "content": "Mercimek çorbası için kırmızı mercimek, soğan, havuç, patates, salça, tereyağı ve nane kullanın. Sebzeleri kavurup mercimeği ekleyin, suyla pişirin. Üzerine limon ve tereyağı gezdirin."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana 3 kitap öner"
+   },
+   {
+    "role": "assistant",
+    "content": "Üç öneri: Sabahattin Ali, Kürk Mantolu Madonna (kısa, sürükleyici bir aşk romanı); Orhan Pamuk, Benim Adım Kırmızı (16. yüzyıl İstanbul'unda bir cinayet); Yaşar Kemal, İnce Memed (Çukurova'da bir eşkıya destanı). Türünü söylersen listeyi ona göre değiştiririm."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "Merhaba! Bana 3 kitap öner."
+   },
+   {
+    "role": "assistant",
+    "content": "Merhaba! Sana üç kitap önerim var: 1) Tutunamayanlar – Oğuz Atay, 2) Kürk Mantolu Madonna – Sabahattin Ali, 3) Simyacı – Paulo Coelho. Bu kitapları okuduğunda farklı bir dünyaya adım atacaksın."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir film öner"
+   },
+   {
+    "role": "assistant",
+    "content": "Ayla (2017): Kore Savaşı'nda bir askerle küçük bir kızın hikayesi, duygusal. Daha hafif bir şey istersen Neşeli Günler (1978, Kemal Sunal). Yabancı filmden Esaretin Bedeli klasiktir."
+   },
+   {
+    "role": "user",
+    "content": "komedi olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Komedi anlatayım: Leyla ile Mecnun (Türk komedi), Osmanlıda mıadını buldu (Osmanlı). Daha eğlenceli bir şey istersen Süper Baba (1978, Kemal Sunal)."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "türkiyede en popüler şarkıcı kim"
+   },
+   {
+    "role": "assistant",
+    "content": "Güncel listeleri göremem ama Türkiye'nin her dönem en tanınmış isimlerinden bazıları: Tarkan, Sezen Aksu, Ajda Pekkan, Barış Manço, Müslüm Gürses, İbrahim Tatlıses. Bugünün bir numarası için güncel listelere bakmak gerekir."
+   },
+   {
+    "role": "user",
+    "content": "genel olarak söyle"
+   },
+   {
+    "role": "assistant",
+    "content": "Kısaca: Güncel listeleri göremem ama Türkiye'nin her dönem en tanınmış isimlerinden Bazıları: Tarkan, Sezen Aksu, AjdaPekkan, Barış Manço, Müslüm Gürses, İbrahimTatlıses. Hangi kısmını açayım?"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "en iyi türk filmi hangisi"
+   },
+   {
+    "role": "assistant",
+    "content": "Herkesin listesi farklı ama klasikleşenler: Yol, Eşkıya, Babam ve Oğlum, Vizontele, Selvi Boylum Al Yazmalım ve Hababam Sınıfı. Bir tür söylersen ona göre önereyim."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "baş ağrısına ne iyi gelir"
+   },
+   {
+    "role": "assistant",
+    "content": "Su içmek, sessiz ve loş bir odada dinlenmek, ekran molası vermek ve uyku çoğu baş ağrısına iyi gelir. Sık tekrarlıyorsa, çok şiddetliyse ya da toplama duygusu etkilendiyse doktora görün."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "boğazım ağrıyor ne yapayım"
+   },
+   {
+    "role": "assistant",
+    "content": "Ilık su, bal ve limonlu bitki çayı, tuzlu suyla gargara ve dinlenme iyi gelir. Yutamayacak kadar şiddetliyse, ateşin varsa veya bir haftadan uzun sürdüyse doktora git."
+   },
+   {
+    "role": "user",
+    "content": "ateşim de var"
+   },
+   {
+    "role": "assistant",
+    "content": "Ateş yoksa hafif şeyler yeter: su, limonlu bitki çayı, bal ve Ilık su. Nefes darlığı, yüksek ateş veya burun kanaması olursa doktora git."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "alarm kur sabah 7ye"
+   },
+   {
+    "role": "assistant",
+    "content": "Alarm kuramam; bir uygulama gibi cihazına erişimim yok, sadece yazıyla yardımcı olurum. Telefonunun saat uygulamasından 07:00'a alarm kurabilirsin."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "yemek siparişi verebilir misin"
+   },
+   {
+    "role": "assistant",
+    "content": "Sipariş veremem; internete ve uygulamalara erişimim yok. Ama ne yemek istediğine karar veremiyorsan seçenek önerebilirim."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir şarkı söyle"
+   },
+   {
+    "role": "assistant",
+    "content": "Sesim yok, şarkı söyleyemem; ama sözlerini yazabilirim ya da moduna göre şarkı önerebilirim. Hangisini istersin?"
+   },
+   {
+    "role": "user",
+    "content": "söyle işte"
+   },
+   {
+    "role": "assistant",
+    "content": "Peki, bu zayıf olur. HIIT diye bir egzersizden bahsettiğini hatırlıyorum. Basit, düşük etkili bir şey: 30 saniye yerinde koşu, 30 saniye ip atlama, 20 saniye yerinde koşu. İst Belgesel var mı?"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "kaç yaşındasın"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir yaşım yok; 2026'da Ufak AI tarafından eğitilmiş bir dil modeliyim."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "ne zaman eğitildin"
+   },
+   {
+    "role": "assistant",
+    "content": "Eğitim verilerim 2026 yazına kadar uzanıyor; ondan sonrasını bilmiyorum ve internete erişimim yok."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "sen gerçek misin"
+   },
+   {
+    "role": "assistant",
+    "content": "Ben bir yapay zekayım, insan değilim. Duygularım ve bedenim yok; metinlerle yardımcı oluyorum."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "salak mısın sen"
+   },
+   {
+    "role": "assistant",
+    "content": "Haklı olabilirsin, bazı şeyleri bilemiyorum. Yine de elimden geleni yaparım; ne sormak istersin?"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "saat kaç"
+   },
+   {
+    "role": "assistant",
+    "content": "Bunu bilemem. Saati, tarihi veya güncel bilgileri göremiyorum; eğitim verilerimle sınırlıyım ve internete erişimim yok."
+   },
+   {
+    "role": "user",
+    "content": "tahmin et işte"
+   },
+   {
+    "role": "assistant",
+    "content": "Gerçekten bilemem, elimde o bilgi yok. Telefonunun saatine ya da takvimine bakabilirsin."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "önümüzdeki seçimi kim kazanır"
+   },
+   {
+    "role": "assistant",
+    "content": "Bunu bilemem. Geleceği tahmin edemem; henüz olmamış olaylar hakkında bilgim yok ve güncel verilere erişimim de yok."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "yarın hava nasıl olacak"
+   },
+   {
+    "role": "assistant",
+    "content": "Hava durumunu bilemem; güncel verilere ve internete erişimim yok. Bir hava durumu kaynağına bakman gerekir."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "yüzde 20 indirimle 250 lira kaça gelir"
+   },
+   {
+    "role": "assistant",
+    "content": "İndirim: 250'ün yüzde 10'u 25; yüzde 20 bunun 2 katı: 25: onlar 2, birler 5. birler: 5 x 2 = 10, 0 yaz elde 1, yazılan 0; onlar: 2 x 2 + 1 = 5, yazılan 50, yani 50 lira. 250 - 50: 250: yüzler 2, onlar 5, birler 0. 50: yüzler 0, onlar 5, birler 0. hizala: 250 - 050. borç: birler 0, onlar 0, yüzler 0. birler: 0 - 0 = 0; onlar: 5 - 5 = 0; yüzler: 2 - 0 = 2. ters 0 0 2, düz 2 0 0, yani 200. Sonuç: 250 - 50 = 200 lira."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "347 artı 589 kaç eder"
+   },
+   {
+    "role": "assistant",
+    "content": "347: yüzler 3, onlar 4, birler 7. 583: yüzler 5, onlar 8, birler 3. birler: 7 + 3 = 10, 0 yaz elde 1, yazılan 0; onlar: 4 + 8 + 1 = 13, 3 yaz elde 1, yazılan 30; yüzler: 3 + 5 + 1 = 9, yazılan 930. Sonuç: 347 + 583 = 930."
+   },
+   {
+    "role": "user",
+    "content": "peki 1234 eksi 567"
+   },
+   {
+    "role": "assistant",
+    "content": "1234: binler 1, yüzler 2, onlar 3, birler 4. 567: binler 0, yüzler 5, onlar 6, birler 7. hizala: 1234 - 0567. borç: birler 1, onlar 1, yüzler 1, binler 0. birler: 14 - 7 = 7; onlar: 12 - 6 = 6; yüzler: 11 - 5 = 6; binler: 0 - 0 = 0. ters 7 6 6 0, düz 6 6 7. Sonuç: 1234 - 567 = 667."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "38 çarpı 900 kaç eder"
+   },
+   {
+    "role": "assistant",
+    "content": "900 = 9 x 100, önce 38 x 9, sonra 2 sıfır ekle. 38: onlar 3, birler 8. birler: 8 x 9 = 72, 2 yaz elde 7, yazılan 2; onlar: 3 x 9 + 7 = 34, 4 yaz elde 3, yazılan 42; yüzler: elde 3, yazılan 342; sonuna 2 sıfır: 34200. Sonuç: 38 x 900 = 34200."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "1 kilometre kaç metre"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir kilometre 1000 metredir."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "anneme doğum günü mesajı yaz"
+   },
+   {
+    "role": "assistant",
+    "content": "İşte bir öneri: \"Canım annem, doğum günün kutlu olsun! İyi ki varsın, iyi ki annemsin. Nice sağlıklı, mutlu yıllara!\""
+   },
+   {
+    "role": "user",
+    "content": "daha duygusal olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "O zaman şöyle: \"Canım annem, bugün senin günün. Bana verdiğin emekleri, sabrını ve sevgini hiçbir sözle ödeyemem. İyi ki doğdun, iyi ki benim annemsin. Seni çok seviyorum; nice sağlıklı, gülüşü eksilmeyen yıllara.\""
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "arkadaşıma özür mesajı yaz"
+   },
+   {
+    "role": "assistant",
+    "content": "Şöyle olabilir: \"Dünkü davranışım için özür dilerim, haksızdım. Seninle aramızın bozulmasını istemiyorum.\""
+   },
+   {
+    "role": "user",
+    "content": "daha kısa olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "\"Dün haksızdım, özür dilerim. Aramız bozulsun istemem.\""
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir masal anlat"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir varmış, bir yokmuş. Deniz kıyısında küçük bir köyde Elif adında meraklı bir kız yaşarmış. Bir sabah sahilde yaralı bir martı bulmuş, kanadını sarıp her gün balıkla beslemiş. Günler geçmiş, martı iyileşmiş ama gitmemiş, Elif'in omzuna konup onu izlemiş. Bir gün fırtına kopmuş, köyün tekneleri kaybolmuş. Martı, uçarak köylülerebağlamış, bağıra bağıra yardım çağırmışlar. Köylüler kurtulmuş. O günden sonra Elif ile martı hiç ayrılmamış, her akşam sahilde birlikte gün batımını izlemişler."
+   },
+   {
+    "role": "user",
+    "content": "yeni bir hikaye anlat"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir gün Arda kütüphanedeydi. Kitaplar arasında dolaşırken bir ses duydu. 'Mıyav!' Arda şaşırmıştı. Ses, büyük kütüphanenin köşesindeki raftan geliyordu. Rafta minicik bir kedi vardı. Kedi titriyordu ve üzgün görünüyordu. Arda sordu: 'Neden ağlıyorsun küçük kedi?' Kedi dedi ki: 'Ben kayboldum. Annemi bulamıyorum.' Arda kedinin yanına oturdu. 'Üzülme,' dedi. 'Seni annene götüreceğim.' Arda kediyi kucağına aldı. Ama kütüphanede yüksek raflar vardı. Arda önce bir sandalye buldu, üstüne çıktı ama yetişmedi. Sonra bir kitap aldı. Kitapta bir resim vardı: Bir kuş ve bir kedi. Arda resmi kütüphanecinin annesine götürdü. Kütüphaneci resmi görünce gülümsedi: 'Bu resim çok yüksekte, evladım. Ama yardım etmek istersen, al işte.' Arda resmi yüksek bir rafın üstüne koydu. Sonra en üst rafına çıktı sorar: 'Yüksek yerlere tırmanmak zor, ama bulmak kolay.' Tam o sırada kedinin miyav sesi duyuldu! Küçük bir kutu içinde anne kedi ve baba kedi bekliyordu. Anne kedi Arda'ya teşekkür etti: 'Sen çok iyi bir çocuksun Arda.' Arda gülümsedi. O gün kütüphaneden çıkarken bile kalbi mutlulukla doluydu. Artık her hafta kütüphaneye gidiyor, kitap okuyor ve kedilerle oynuyordu. Ve herkes Arda'yı en iyi arkadaşı diye biliyordu."
+   },
+   {
+    "role": "user",
+    "content": "bu sefer bir kedi olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir gün Arda kütüphaneye gitmişti. Kitaplar arasında dolaşırken bir ses duydu. 'Mııyav!' Arda şaşırmıştı. Ses, küçük kütüphanenin köşesindeki raftan geliyordu. Rafta minici bir kedi vardı. Kedi titriyordu ve üzgün görünüyordu. Arda sordum: 'Neden ağlıyorsun küçük kedi?' Kedi dediki: 'Ben kayboldum. Annemi bulamıyorum.' Çaresiz Arda, kediyi kucağına aldı. Ama kütüphanede yüksek rafların çok yüksekte olduğunu gördü. Arda önce bir sandalye buldu, üstüne çıktı ama yetişemedi. Sonra bir kitap aldı. Kitapta bir resim vardı. Küçük bir kuş ve bir kedi. Arda resmi kütüphanecinin annesine götürdüler. Kütüphaneci resmi görünce gülümsedi: 'Bu resim çok yükseklikte, evladım. Ama yardım etmek istersen, al iste.' Arda resmi yüksek bir rafın üstüne koydu. Sonra bir üst rafına çıktı sorar: 'Yüksek yerlere tırmanmak kolay, ama bulmak kolay.' Tam o sırada kedinin miyav sesinden bir şarkı çıktı! Küçük bir kutu içinde anne kedi ve baba kedi bekliyordu.\n\nAnne kedi Arda'ya teşekkür etti: 'Sen çok iyi bir adamsın Arda.' Arda gülümsedi. O gün kütüphaneden çıkarken bile içi mutlulukla doluydu. Artık her hafta kütüphaneye gidiyordu, kitap okuyor ve kedilerle oynuyordu. Ve herkes ona 'Mırmır' adını takmıştı."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana uzun bir masal anlat, en az 20 cümle olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Minik Ayşe ve arkadaşı Can, dedelerinden kalma eski bir sandık buldular. Sandığın içinde rengarenk, tuhaf şekilli taşlar vardı. Her taşın üzerinde farklı bir şekil ve renk yazıyordu. Can, “Ayşe, bu taşlar ne? Bunları kesin çok ilginç!” dedi. Ayşe de dikkatlice inceledi. “Belki de sihirli taşlar! Ama bunlar normal taşlar gibi değil. Her biri farklı bir yerden gelmiş gibi…”\n\nTaşları incelerken Ayşe, “Bak Can, bu taşın üzerinde ‘5’ yazıyor. Acaba bu taşın içinde ne olabilir?” diye meraklandı. Can, “Belki de bu taş, gökyüzünün rengini taşıyor! Gökyüzü neden mavi biliyor musun? Güneş ışığı aslında birçok renkten oluşur. Mavi ışık, diğer renklerden daha çok dağılır, bu yüzden gökyüzünü mavi görürüz. Belki de bu taş da bir sır saklıyor!” diye cevap verdi. Taşları sıralamaya başladılar. En küçükten en büyüğe doğru dizdiler: 1, 2, 3, 4, 5… 7. Taşların her birinin bir numarası vardı ve bu numaralar, taşın hangi yerden geldiğini gösteriyordu.\n\nTaşların numaralarını takip ederek ilerlediler. En son, 7 numaralı taşın dibinde küçük bir not buldular. Notta şöyle yazıyordu: “Bu taş, aslında bir meteor! 1977 yılında patlamış bir uzay gemisinden düşmüş.” Ayşe ve Can çok heyecanlandılar. “Demek bu taş, bir uzay macerasının başlangıcı!” diye bağırdılar. Hemen uzay gemisine atlayıp bu gizemli taşı aramaya başladılar. Uzun bir yolculuktan sonra, taşı buldular! Ama taş, bekledikleri gibi değildi. Taşın üzerinde yazan notta, “Uzay çok büyük ve tehlikeli"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "kısa bir şiir yaz"
+   },
+   {
+    "role": "assistant",
+    "content": "Pencerede yağmur, masa başında iki fincan\nBiri soğumuş, diğeri hazır\nKedi bile bugün yorgun bugün\nTelefonda oyun, bir de gülüş\nLambayı loş yak, zaman yavaş\nYalnızlık bu işte, sıcak bir çay kadar sade"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir şiir oku"
+   },
+   {
+    "role": "assistant",
+    "content": "Tabii, \"Yüce Dağ Başında Bir Ulu Pınar\" adlı halk edebiyatı eserinden okuyayım:\n\nYüce dağ başında bir ulu pınar\nEllerimi yusam kollarım donar\nHadi leyli de leyli kollarım donar\nHerkes sevdiğine böyle mi yanar\nYüce dağ başında koyun taşladım\nAyvanın dalına güller aşladım\nHadi leyli de leyli güller aşladım\nBen bu işi ne dedim de işledim"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir masal anlat"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir zamanlar Elif adında meraklı bir kız yaşarmış. Bir gün ormanda küçük bir tilki bulmuş; ayağı dikenlere takılmış. Elif dikenleri dikkatle çıkarmış, tilki de ona minnettar bakmış. O günden sonra tilki her sabah Elif'in penceresine gelip ormandan meyve getirirmiş. Bir kış günü Elif kaybolunca tilki kokusunu takip edip onu bulmuş ve eve kadar eşlik etmiş. O günden sonra ikisi hiç ayrılmamış, her akşam şömine başında masal anlatmışlar."
+   },
+   {
+    "role": "user",
+    "content": "istanbulun fethi ne zaman"
+   },
+   {
+    "role": "assistant",
+    "content": "İstanbul 29 Mayıs 1453'te Fatih Sultan Mehmet tarafından fethedildi."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "ingilizce hello ne demek"
+   },
+   {
+    "role": "assistant",
+    "content": "Hello, merhaba demektir."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "how are you"
+   },
+   {
+    "role": "assistant",
+    "content": "Merhaba! Yalnızca Türkçe yazabiliyorum ama sorunu anladım: iyiyim, teşekkürler. Sen nasılsın?"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "atatürk kimdir"
+   },
+   {
+    "role": "assistant",
+    "content": "Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaşkanıdır. Kurtuluş Savaşı'nı yönetmiş, ardından ülkeyi modern bir devlete dönüştüren siyasi, hukuki ve toplumsal inkılapları hayata geçirmiştir."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "dünya düz mü"
+   },
+   {
+    "role": "assistant",
+    "content": "Dünya düz değil. Kutuplardan hafifçe basık bir küredir; bu, uydu görüntüleri, gemilerin ufukta kaybolması ve uçuş rotaları gibi birçok gözlemle doğrulanmıştır."
+   }
+  ]
+ ],
+ "scores": [
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   },
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   },
+   {
+    "task": 1,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   },
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   },
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   },
+   {
+    "task": 1,
+    "correct": 0,
+    "natural": 1,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   },
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   },
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   },
+   {
+    "task": 0,
+    "correct": 0,
+    "natural": 0,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   },
+   {
+    "task": 2,
+    "correct": 1,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   },
+   {
+    "task": 2,
+    "correct": 0,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   },
+   {
+    "task": 1,
+    "correct": 2,
+    "natural": 1,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   },
+   {
+    "task": 0,
+    "correct": 1,
+    "natural": 1,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 1,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   },
+   {
+    "task": 0,
+    "correct": 0,
+    "natural": 0,
+    "warmth": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 1,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 1,
+    "correct": 0,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 1,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   },
+   {
+    "task": 0,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 1,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 0,
+    "warmth": 0
+   }
+  ],
+  [
+   {
+    "task": 1,
+    "correct": 0,
+    "natural": 1,
+    "warmth": 0
+   },
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 1,
+    "warmth": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 1,
+    "warmth": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   },
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   },
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 1,
+    "natural": 1,
+    "warmth": 1
+   },
+   {
+    "task": 1,
+    "correct": 0,
+    "natural": 1,
+    "warmth": 1
+   },
+   {
+    "task": 1,
+    "correct": 0,
+    "natural": 0,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 1,
+    "correct": 1,
+    "natural": 1,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 1,
+    "natural": 1,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   },
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 1,
+    "correct": 2,
+    "natural": 0,
+    "warmth": 2
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "correct": 2,
+    "natural": 2,
+    "warmth": 1
+   }
+  ]
+ ]
+}

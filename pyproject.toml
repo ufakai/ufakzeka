@@ -1,0 +1,33 @@
+[project]
+name = "ufakzeka"
+version = "0.1.0"
+description = "Small Turkish language models trained from scratch"
+requires-python = ">=3.11"
+dependencies = [
+    "modal>=1.5",
+    "datasets>=3.0",
+    "huggingface-hub>=0.30",
+    "pyarrow>=17",
+    "duckdb>=1.1",
+    "tokenizers>=0.20",
+    "numpy>=2",
+    "zstandard",
+    "xxhash",
+    "regex",
+    "pyyaml",
+    "tqdm",
+    "torch>=2.13.0",
+    "transformers>=5.16.1",
+    "lm-eval>=0.4.12",
+    "accelerate>=1.14.0",
+]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["ufakzeka"]

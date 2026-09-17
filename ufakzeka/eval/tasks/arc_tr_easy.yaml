@@ -1,0 +1,3 @@
+include: arc_tr_challenge.yaml
+task: arc_tr_easy
+dataset_name: ARC-Easy

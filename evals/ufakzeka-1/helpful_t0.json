@@ -1,0 +1,1741 @@
+{
+ "model": "models/ufakzeka-1-instruct-v103s5/hf",
+ "summary": {
+  "task": 78.4,
+  "coherent": 80.1,
+  "deflect_rate": 4.2,
+  "overall": 79.2,
+  "turns": 118,
+  "judged": 39,
+  "usd": 0.005
+ },
+ "conversations": [
+  [
+   {
+    "role": "user",
+    "content": "merhaba"
+   },
+   {
+    "role": "assistant",
+    "content": "Merhaba! Sana nasıl yardımcı olabilirim?"
+   },
+   {
+    "role": "user",
+    "content": "bugün dışarı çıkıp neler yapabilirim"
+   },
+   {
+    "role": "assistant",
+    "content": "Birkaç fikir: bir parkta yürüyüş yapıp bir kafede oturmak, yakın bir müzeyi veya sahili gezmek, bisiklet kiralamak, ya da pazara gidip taze bir şeyler almak. Hava kapalıysa kapalı çarşı, sinema veya kütüphane iyi gider."
+   },
+   {
+    "role": "user",
+    "content": "bilmiyorum bana tavsiye et"
+   },
+   {
+    "role": "assistant",
+    "content": "O zaman şu iyi: bir gün yürüyüş için bir park, bir hafta müze, bir gün de kütüphane. Az masraflı ve her gün değişir, kimse seni üzmez."
+   },
+   {
+    "role": "user",
+    "content": "dışarıda dedim evde değil"
+   },
+   {
+    "role": "assistant",
+    "content": "Tamam, evde: bir film maratonu ya da uzun bir kahvaltı, yanına bir kitap. Biraz hareket istersen parkta tur bile olur."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "selam"
+   },
+   {
+    "role": "assistant",
+    "content": "Selam! Nasıl yardımcı olabilirim?"
+   },
+   {
+    "role": "user",
+    "content": "bana bir masal anlat"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir varmış, bir yokmuş. Deniz kıyısındaki küçük bir köyde Elif adında meraklı bir kız yaşarmış. Bir sabah sahile yürürken yaralı bir martı bulmuş. Elif, martının kanadını yosunla sarmış, her gün balık vermiş. Günler geçmiş, martı iyileşmiş ama gitmemiş. Bir gün fırtına kopmuş, köyün tekneleri dalgalarda kaybolmuş. Martı, Elif'in omzuna konup kanatlarıyla onu güvenli bir yere taşımış. O günden sonra köylüler martılara hep iyi davranmış, Elif de her akşam sahilde onu izlemiş."
+   },
+   {
+    "role": "user",
+    "content": "fil hakkında olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir varmış, bir kaybolmuş. Deniz kıyısındaki küçük bir köyde Elif adında meraklı bir kız yaşıyormuş. Bir sabah sahile yürürken yaralı bir martı bulmuş ve kanadını yosunla sarmış. Martı her gün balık vermiş, Elif de ona iyi davranmış. Bir gün fırtına kopmuş, köyün tekneleri dalgalardan kurtulmuş. Martı, Elif'in omzuna konup kanatlarıyla ona güvenli bir yer bulmuş. O günden sonra köylüler martılara hep iyi davranmışlar, Elif de her akşam sahilde onu izlemiş."
+   },
+   {
+    "role": "user",
+    "content": "sonu mutlu bitsin"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir varmış, bir gitmiş. Deniz kıyısındaki küçük bir köyde Elif adında meraklı bir kız, sahilde yaralı bir martı bulmuş. Martıya martılık yapmış, kanadını yosunla sarmış, her gün balık vermiş, martı da ona güvenmiş. Fırtına kopunca martı, Elif'i güvenli bir yere taşımış. Köylüler martıyı kahraman ilan etmiş, Elif de her akşam sahilde onu izlemiş."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana kısa bir hikaye yaz, kahramanı bir kedi olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir zamanlar Elif adında meraklı bir kız yaşarmış. Bir gün ormanda küçük, titreyen bir kedi bulmuş. Kediyi alıp evine götürmüş, her gün süt ikram etmiş. Kedi zamanla güçlenmiş, Elif'in en yakın dostu olmuş. Bir gece kedi miyavlayarak Elif'i uyandırmış; mutfakta unutulmuş ocak alev almış, köz Elif'i uyandırmış. İkisi birlikte ateşi söndürmüş, evi kurtarmışlar. O günden sonra köyde herkes kediyi kahraman saymış. Elif ile kedi, yıllarca dost olarak yaşamışlar."
+   },
+   {
+    "role": "user",
+    "content": "biraz daha uzun olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir zamanlar Elif adlı meraklı bir kız yaşarmış. Bir gün ormanda küçük, titremeyi seven bir kedi bulmuş; adını Pofuduk koymuş. Pofuduk, Elif'in en yakın dostu olmuş. Bir gece Elif'in ocak alev almış, köz evi söndürmüş. Pofuduk hemen miyavlayarak Elif'i uyandırmış; mutfakta unutulmuş ocak yanmaya başlamış. İkisi birlikte ateşi söndürmüşler. O günden sonra köyde herkes kediyi kahraman saymış, Elif ile Pofuduk yıllarca dost olarak yaşamış."
+   },
+   {
+    "role": "user",
+    "content": "kedinin adı ne olsun sence"
+   },
+   {
+    "role": "assistant",
+    "content": "Pofuduk olsun, Elif'in en yakın dostu."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "hafta sonu için plan yapmama yardım et"
+   },
+   {
+    "role": "assistant",
+    "content": "Hafta sonu için güzel bir fikir: sabah bir parkta yürüyüş, sonra kahvaltı sonrası bir müze ya da sergi. Akşam da evde film ve atıştırmalıkla sinema seansı yapabilirsin. Hangisi ilgini çeker?"
+   },
+   {
+    "role": "user",
+    "content": "iki günüm var ve bütçem az"
+   },
+   {
+    "role": "assistant",
+    "content": "İki gün için şehir dışına çıkıp piknik iyi gider: sabah piknik, öğlen müze, akşam evde film. Ulaşım ve dışarı harcama tamamen sıfır."
+   },
+   {
+    "role": "user",
+    "content": "ilk gün ne yapayım"
+   },
+   {
+    "role": "assistant",
+    "content": "İlk gün sabah piknik, öğlen müze ya da sergi, akşam evde film. Yanına atıştırmalık ve bir kitap al, ikinci günü sakin geçir."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "fotosentez nedir"
+   },
+   {
+    "role": "assistant",
+    "content": "Fotosentez, bitkilerin güneş ışığı, su ve karbondioksit kullanarak besin (glikoz) ve oksijen üretmesidir."
+   },
+   {
+    "role": "user",
+    "content": "çocuğa anlatır gibi anlat"
+   },
+   {
+    "role": "assistant",
+    "content": "Bitkiler güneş ışığını alır, yapraklarındaki klorofil sayesinde yakalar ve havadaki oksijene dönüştürür. Bu oksijenle büyür, meyve verir ve bize nefes almamızı sağlayan oksijeni verir. Kısacası bitkiler hem kendi yemeği yapar hem de bizim için yaşam kaynağıdır."
+   },
+   {
+    "role": "user",
+    "content": "peki gece ne olur"
+   },
+   {
+    "role": "assistant",
+    "content": "Bitkiler tam karanlıkta ışık üretir, buna biyolüminesans denir. Bazı balık türleri ışıkla yön bulur, bazıları ise karanlıkta ışık saçarak avlanır."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "kahvaltıda ne yapsam"
+   },
+   {
+    "role": "assistant",
+    "content": "Üç öneri: omlet (en kolayı, üç malzeme yeter); menemen (tek tavada olur); menemen (tek tavada olur)."
+   },
+   {
+    "role": "user",
+    "content": "yumurtam yok"
+   },
+   {
+    "role": "assistant",
+    "content": "O zaman menemen yap: tek tavada olur. Diğerleri de olur ama bugün için en uygunu bu."
+   },
+   {
+    "role": "user",
+    "content": "o zaman ne kalıyor"
+   },
+   {
+    "role": "assistant",
+    "content": "Menemenden başka bir şey: omlet, menemen, makarna (tam tahıllı)."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "türkiyenin en güzel şehirleri hangileri"
+   },
+   {
+    "role": "assistant",
+    "content": "Çok gezilen şehirler: İstanbul (tarih), Antalya (deniz), Kapadokya bölgesi (Nevşehir), Mardin (taş evler), İzmir ve Trabzon. Ne tür bir gezi istediğine göre daralabilirim."
+   },
+   {
+    "role": "user",
+    "content": "deniz kenarı olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Deniz kenarı için Antalya derim; Olympos ve Kaş plajları denizi çok temiz ve berrak. Kapadokya da güzel ama biraz daha az kalabalık."
+   },
+   {
+    "role": "user",
+    "content": "bunlardan birini seç ve neden"
+   },
+   {
+    "role": "assistant",
+    "content": "Olympos'u seçerim, denizi gerçekten çok berrak. Kapadokya ise hem doğası hem balon turuyla keyifli."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bir arkadaşıma doğum günü mesajı yaz"
+   },
+   {
+    "role": "assistant",
+    "content": "Doğum günün kutlu olsun! Yeni yaşın sana sağlık, mutluluk ve bolca gülümseme getirsin. Hayalinin peşinden koşarken yanında sevdiklerin olsun. Bugün kendini şımart, pasta yiyip keyifli vakit geçir. Nice güzel yıllara!"
+   },
+   {
+    "role": "user",
+    "content": "daha esprili olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Doğum günün kutlu olsun sevgili dostum! Yaşın sadece bir sayı, sen onu komik bir şeye çevirip bana hediye verdin. Artık bir yaş daha at, şapkayı ve mumları güvene bağla. Pasta dilini şimdiden hak ettin!"
+   },
+   {
+    "role": "user",
+    "content": "adı mehmet ekle"
+   },
+   {
+    "role": "assistant",
+    "content": "Doğum günün kutlu olsun, sevgili dostum! Yaşın sadece bir sayı, sen onu eğlenceli bir şeye çevirip bana hediye verdin. Artık bir yıl daha ekle, mumları ve pasta dilini güvene bağla. Doğum günün kutlu olsun, mehmet!"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "uyuyamıyorum ne yapmalıyım"
+   },
+   {
+    "role": "assistant",
+    "content": "Yatmadan bir saat önce ekranları bırak, odayı serinlet ve karart, akşam çay kahveyi kes. Uyku gelmiyorsa yataktan kalkıp loş ışıkta biraz kitap oku, uykun gelince dön. Haftalardır sürüyorsa bir doktora danış."
+   },
+   {
+    "role": "user",
+    "content": "kahve içmiyorum zaten"
+   },
+   {
+    "role": "assistant",
+    "content": "Anladım, kahve olmadan da olur. O zaman çayı demle, üstüne bir fincan sıcak süt veya papatya çayı ekle, uykunu açar."
+   },
+   {
+    "role": "user",
+    "content": "başka ne var"
+   },
+   {
+    "role": "assistant",
+    "content": "Not: Yukarıdaki öneriler doktorunun ya da eczacının önerisiyle olmalı. Umarım uyuyasın, iyi geceler!"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana 3 kitap öner"
+   },
+   {
+    "role": "assistant",
+    "content": "Üç öneri: Sabahattin Ali, Kürk Mantolu Madonna (kısa, sürükleyici bir aşk romanı); Orhan Pamuk, Benim Adım Kırmızı (16. yüzyıl İstanbul'unda bir cinayet); Yaşar Kemal, İnce Memed (Çukurova'da bir eşkıya destanı). Türünü söylersen listeyi ona göre değiştiririm."
+   },
+   {
+    "role": "user",
+    "content": "roman olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Üç öneri: Sabahat bırakmak, Küçük Prens (anlaşılır bir anaforik), Şeker Portakalı (kısa, duygusal, ılgısız). Edebiyat okumayı seviyorsan ikisini de denemeni öneririm."
+   },
+   {
+    "role": "user",
+    "content": "en kolayı hangisi"
+   },
+   {
+    "role": "assistant",
+    "content": "En kolayı Kürk Mantolu Madonna: kısa, sürükleyici bir aşk romanı. Sakin ve evrensel bir hikâye; romanla başla, sonra devam edersin."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "spor yapmaya başlamak istiyorum"
+   },
+   {
+    "role": "assistant",
+    "content": "Güzel karar! Başlangıç için haftada 3 gün 20 dakikalık yürüyüş ve basit ev egzersizleri ideal. İlk hafta kendini yorma, alışmak önemli."
+   },
+   {
+    "role": "user",
+    "content": "evde yapabileceğim şeyler"
+   },
+   {
+    "role": "assistant",
+    "content": "Evde: squat, şınav, plank ve mekik tekrarlayabilirsin. YouTube'da \"evde şınav nasıl yapılır\" videoları da işine yarar. Bir mat ve birkaç şınav ile başla."
+   },
+   {
+    "role": "user",
+    "content": "haftada kaç gün"
+   },
+   {
+    "role": "assistant",
+    "content": "Haftada 5 gün, her gün 30 dakika yeter. Ara verirken de dinlenmeyi unutma. İstersen bir gün ara verip dinlenirsin."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "su neden ıslak"
+   },
+   {
+    "role": "assistant",
+    "content": "Su, iki şekilde akabilir: tek bir damar, göller veya nehir. Uzunluklarına göre en uzun nehir Amazon, en kısa olan Tuna'dır."
+   },
+   {
+    "role": "user",
+    "content": "ciddiyim"
+   },
+   {
+    "role": "assistant",
+    "content": "Tamam, ciddi bir açıklama: başlıklarda 'su' ve 'nehir' yaz, kesişimi bulalım."
+   },
+   {
+    "role": "user",
+    "content": "tamam peki buz neden kayar"
+   },
+   {
+    "role": "assistant",
+    "content": "Buz, suyun donmuş hali; yavaş çekim yüzünden eline su aldığında yumuşar ve kaygan hale gelir."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "istanbulda bir günde neler gezilir"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir günde İstanbul'da: Sultanahmet, Ayasofya, Topkapı, Galata ve Kadıköy. Daha ekonomik bir şey istersen Beyoğlu'nda bir gece ya da bir gün gezip Boğaz'ı görebilirsin."
+   },
+   {
+    "role": "user",
+    "content": "tarihi yerler"
+   },
+   {
+    "role": "assistant",
+    "content": "1453'te Fatih Sultan Mehmet gemileri karadan yürüterek Haliç'e indirdi, bu büyük bir başarıydı. Ayrıca İstanbul'un ilk deniz feneri 1876'da açıldı. Gezecek yerin yakınına bakmanı öneririm."
+   },
+   {
+    "role": "user",
+    "content": "öğle yemeği için öneri"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir büyük kase mercimek çorbası yanında bir dilim ekmek, hem doyurur hem hızlıdır. Alternatif olarak makarna ya da ton balıklı pilav da iyi gider."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "adım ayşe"
+   },
+   {
+    "role": "assistant",
+    "content": "Merhaba Ayşe! Sana nasıl yardımcı olabilirim?"
+   },
+   {
+    "role": "user",
+    "content": "bana bir şiir yaz"
+   },
+   {
+    "role": "assistant",
+    "content": "Sabah olur Sen uyanır,\nPencereden kuşlara bakar.\nGünü bir şarkı gibi yaşar,\nSen nereye gitse ışık saçar."
+   },
+   {
+    "role": "user",
+    "content": "içinde adım geçsin"
+   },
+   {
+    "role": "assistant",
+    "content": "Sabah olur Ayşe uyanır,\nPencereden kuşlara bakar.\nGügüne bir şarkı gibi yaşar,\nAyşe nereye gitse ışık saçar."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "moralim bozuk"
+   },
+   {
+    "role": "assistant",
+    "content": "Zor bir gün müydü? İstersen anlat, istersen sadece biraz temiz hava almak için dışarı çıkıp 10 dakika yürü."
+   },
+   {
+    "role": "user",
+    "content": "iş yerinde sorun var"
+   },
+   {
+    "role": "assistant",
+    "content": "İşi kontrol etmedin mi? Patrona kısa bir mesaj at, 'şu an iş yoğun, yarın kısa bir toplantı yapabilir miyiz' de. Bazen sadece bunu söylemek bile buzları eritebilir."
+   },
+   {
+    "role": "user",
+    "content": "ne yapabilirim"
+   },
+   {
+    "role": "assistant",
+    "content": "Kısa bir yürüyüşe çık, parkta 10 dakika yeter. Ya da pencereyi açıp biraz temiz hava al, kafan da dağılır."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir bilmece sor"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir halk bilmecesi: Bir yeri var yaydan eğri / Bir yeri var iğden doğru / Bir yeri var kazandan kara / Bir yeri var südden ağca"
+   },
+   {
+    "role": "user",
+    "content": "cevabını söyle"
+   },
+   {
+    "role": "assistant",
+    "content": "Cevap: leylek! Bir tane daha ister misin?"
+   },
+   {
+    "role": "user",
+    "content": "bir tane daha"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir tane daha: Bir ağaçta beş yemiş / Beşi de birbirini görmemiş / İkisine gün değmiş / Üçü gün görmemiş"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "türkçede en uzun kelime ne"
+   },
+   {
+    "role": "assistant",
+    "content": "Sık verilen örnek 'muvaffakiyetsizleştiricileştiriveremeyebileceklerimizdenmişsinizcesine'dir (70 harf). Türkçede ekler üst üste geldiği için çok uzun kelimeler türetilebilir."
+   },
+   {
+    "role": "user",
+    "content": "başka örnek"
+   },
+   {
+    "role": "assistant",
+    "content": "'Öldürülmek üzere olanlardanım' cümlesini örnek 1 olarak veririm: 'Öldürülmek üzere olanlardanım' cümlesinde özne sıfat-fiil, yüklem fiil, birinci tekil şahıs, yani 'öldürülmek üzere olanlardanım' sıfat-fiildir. Yüklem fiildir, birinci tekil şahıs ile yüklem fiil birlikte kullanılır. 'Öldürülmek üzere olanlardanım' cümlesindeki ikinci tekil şahıs şahıs yüklem fiilidir. Türkçe sözcüklerdeki eklerin bu şekilde dizilmesi, birleşik kelime söylemenin temelini oluşturur."
+   },
+   {
+    "role": "user",
+    "content": "bunu bir cümlede kullan"
+   },
+   {
+    "role": "assistant",
+    "content": "'Öldürülmeyebileceklerdenim' cümlesinde yüklem 'öldürülmek üzere olanlardanım' sıfat-fildir. İkinci tekil şahıs şahıs yüklem fiilidir. 'Öldürülmek üzere olanlardanım' cümlesinde ikinci tekil şahıs yüklem fiilidir."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "ders çalışırken dikkatim dağılıyor"
+   },
+   {
+    "role": "assistant",
+    "content": "Telefonu başka bir odaya koy, masadan uzakta çalış. Pomodoro tekniği dene: 25 dakika odaklan, 5 dakika mola. Başlangıçta kolay gelsin."
+   },
+   {
+    "role": "user",
+    "content": "telefon yüzünden"
+   },
+   {
+    "role": "assistant",
+    "content": "Telefonu başka odada bırak, sadece ders kitabı ve kalem al. Molada su iç, esneme yap. Kısa süre odaklanman daha kolay olur."
+   },
+   {
+    "role": "user",
+    "content": "somut bir yöntem söyle"
+   },
+   {
+    "role": "assistant",
+    "content": "Enclosure tekniği: 1 dakikalık ders listesi yaz, sadece o listeye bak. Ya da 25 dakika çalışıp 5 dakika mola ver. Modemi başka odaya almayı da unutma."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir fıkra anlat"
+   },
+   {
+    "role": "assistant",
+    "content": "Tabii: Temel'e sormuşlar, 'En sevdiğin ay hangisi?' 'Kolay,' demiş, 'Gökteki.'"
+   },
+   {
+    "role": "user",
+    "content": "bir tane daha"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir tane daha: Nasrettin Hoca göle yoğurt mayalıyormuş. Gülmüşler: Hocam, göl maya tutar mı? Hoca: Ya tutarsa?"
+   },
+   {
+    "role": "user",
+    "content": "hangisi daha komikti sence"
+   },
+   {
+    "role": "assistant",
+    "content": "Bence ilki; mayalı ekmek komik, göle maya tutmaya çalışan da o. İkincisi daha çok güldürür, espri değil."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "evde bitki yetiştirmek istiyorum"
+   },
+   {
+    "role": "assistant",
+    "content": "Güzel fikir! Doğada yetişen bitkiler hem ucuz hem bakımı kolay. Mesela sukulent ya da sanseverya kolay yetişir. Ne tür bitkiler seversin, süs bitkisi mi yoksa köksap mı?"
+   },
+   {
+    "role": "user",
+    "content": "balkonum güneş almıyor"
+   },
+   {
+    "role": "assistant",
+    "content": "Güneş istemeyen bitkiler için gölgelik bitkiler harika olur. Zamioculcas veya cherry domatesler balkonda rahat büyür. Balkonun cam kenarı varsa ona da bakabilirsin."
+   },
+   {
+    "role": "user",
+    "content": "hangi bitkiler"
+   },
+   {
+    "role": "assistant",
+    "content": "Sanseveria, potos, begonvil ve sardunya balkonda çok iyi büyür. Cam kenarı varsa saksıda saksıda kaktüsler de rahat ettirir. Bir de paşa kılıcı denen sardunya hem ucuz hem bakımı kolay."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "hava bugün nasıl"
+   },
+   {
+    "role": "assistant",
+    "content": "Hava durumunu bilemem; güncel verilere ve internete erişimim yok. Bir hava durumu kaynağına bakman gerekir."
+   },
+   {
+    "role": "user",
+    "content": "tamam peki genel olarak eylülde istanbul havası nasıl olur"
+   },
+   {
+    "role": "assistant",
+    "content": "Eylül İstanbul'da ılık ve çoğunlukla güneşlidir; gündüz 22-27 derece, geceleri 16-19. Ay sonuna doğru yağmur ve rüzgar artar."
+   },
+   {
+    "role": "user",
+    "content": "ne giymeliyim"
+   },
+   {
+    "role": "assistant",
+    "content": "Katmanlı giyin: içeride ince bir tişört, üzerine hırka, en dışa kalın bir ceket. Başlık ve güneş gözlüğü iyi bir kombinasyon."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir tarif ver"
+   },
+   {
+    "role": "assistant",
+    "content": "kolay mercimek çorbası yap, her gün için rahat bir başlangıç. bir bardak kırmızı mercimek, bir soğan kavur, su ekle, yumuşayana kadar pişir, blenderdan geçir."
+   },
+   {
+    "role": "user",
+    "content": "mercimek çorbası"
+   },
+   {
+    "role": "assistant",
+    "content": "güzel seçim. içine biraz bulgur eklersen hem doyurucu hem hafif olur. yanında limon sıkmayı unutma."
+   },
+   {
+    "role": "user",
+    "content": "kaç kişilik"
+   },
+   {
+    "role": "assistant",
+    "content": "1 kişi ile yetiyor. az önce söyledin, iki kişilik mercimek çorbası oluyor."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "ingilizce öğrenmek istiyorum"
+   },
+   {
+    "role": "assistant",
+    "content": "Güzel hedef! Günde 15 dakika Duolingo ya da BBC Learning English'le başla, kısa tut."
+   },
+   {
+    "role": "user",
+    "content": "sıfırdan"
+   },
+   {
+    "role": "assistant",
+    "content": "Sıfırdan başlayanlar için en kolayı: her gün 10 dakika Duolingo, 20 dakika BBC Learning English. İkisi de ücretsiz, motivasyon sağlar."
+   },
+   {
+    "role": "user",
+    "content": "günde ne kadar çalışayım"
+   },
+   {
+    "role": "assistant",
+    "content": "Günde 5-10 dakika yeter, ama ara vermeden. Sabah kahvaltıdan sonra 20 dakika, akşam 10 dakika."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bir çocuğa uzay hakkında ne anlatırım"
+   },
+   {
+    "role": "assistant",
+    "content": "Uzay, evrenin ilk kısmıdır. Yıldızlar, gezegenler, galaksiler ve kara delikler var. Çocukken ona yıldız gözüyle bakabilirsin."
+   },
+   {
+    "role": "user",
+    "content": "5 yaşında"
+   },
+   {
+    "role": "assistant",
+    "content": "Harika! 5 yaşındaki bir çocuk için uzay çok eğlenceli. Bir gezegenden başlayabilir, yıldızları sayabilir, gökkuşağını takip edebilir."
+   },
+   {
+    "role": "user",
+    "content": "bir cümleyle özetle"
+   },
+   {
+    "role": "assistant",
+    "content": "5 yaşındaki bir çocuk için uzay çok eğlenceli."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "kedim yemek yemiyor"
+   },
+   {
+    "role": "assistant",
+    "content": "Yemek seçen kediler çok yaygın, yalnız değilsin. Akşam bir tabakta az yemek bırak, onu çağır ama baskı yapma; acıkınca sen de kararırsın."
+   },
+   {
+    "role": "user",
+    "content": "iki gündür"
+   },
+   {
+    "role": "assistant",
+    "content": "İki gündür yememek en ciddi işaret, üç gündür hiç. Bu saatlerde hem iştah hem davranışta bak: acıkmış mı, karnı mı şişmiş. Bir de sosyal davranışı var, komşuya bakmayı dene."
+   },
+   {
+    "role": "user",
+    "content": "veterinere gitmeli miyim"
+   },
+   {
+    "role": "assistant",
+    "content": "İki gündür yememesi ciddiye alınmayı gerektiren bir durum, bir kedi sağlığı uzmanına danışmak iyi olur. Yalnızsa bir günlüğüne bakman yeterli, kesin tanı için uzman daha net söyler."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir isim öner"
+   },
+   {
+    "role": "assistant",
+    "content": "Kimin için? Kedi ise Pamuk, Duman, Boncuk; köpek ise Fındık, Çakıl, Tarçın; bir hikaye kahramanı ise Elif, Deniz, Kerem; bebek ise Ada, Ela, Aras, Kuzey. Söylersen listeyi ona göre daraltırım."
+   },
+   {
+    "role": "user",
+    "content": "yeni doğan erkek bebek"
+   },
+   {
+    "role": "assistant",
+    "content": "Kimin için? Ada için Pamuk, Duman, Boncuk; bir hikaye kahramanı ise Elif, Deniz, Kerem; Bebek ise Ada. Devam edelim mi?"
+   },
+   {
+    "role": "user",
+    "content": "anlamlarını söyle"
+   },
+   {
+    "role": "assistant",
+    "content": "Şöyle: Ada için Pamuk, Duman, Boncuk; bir hikaye kahramanıysa Elif, Deniz, Kerem; bebek ise Ada. Daha basit anlatmamı ister misin?"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "yarın sınavım var çok gerginim"
+   },
+   {
+    "role": "assistant",
+    "content": "Sınav öncesi gerginlik çok normal Furkan, hatta işine yarar. Şimdi kitabı kapat, yarım saat erken yatmayı dene. Ayrıca bugün bildiklerinden soru çöz, gece geç saate kadar çalışma."
+   },
+   {
+    "role": "user",
+    "content": "matematik"
+   },
+   {
+    "role": "assistant",
+    "content": "Matematikte en çok zorlandığın konuyu kafanda belirleyip o konulardan başla. Bol örnek çöz, sınavda önce kolay soruları oku. Sabah kahvaltıyı atlamadan git, sakin kafa sağlam işe yarar."
+   },
+   {
+    "role": "user",
+    "content": "son bir tavsiye"
+   },
+   {
+    "role": "assistant",
+    "content": "Son tavsiyem: sınavdan önce derin nefes al, 4 saniye al 6 saniyede ver. Zorlandığın soruyu sona bırak, önce kolayları bitirip sonra dön. Kolay gelsin Furkan!"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "evde sinema gecesi için film öner"
+   },
+   {
+    "role": "assistant",
+    "content": "Evde keyifli bir film için şunları deneyebilirsin: 1) Yıldızlararası, bilimkurgu sevenler için harika. 2) Severance, korku ve gerilim sevenler için biçilmiş kaftan. 3) Deadpool, her bölümü farklı bir macera."
+   },
+   {
+    "role": "user",
+    "content": "komedi"
+   },
+   {
+    "role": "assistant",
+    "content": "Komedi için önerilerim: 1) G.O.R.A., klasik ama hâlâ çok sevilen. 2) G.O.R.A., klasik bir komedi. 3) G.O.R.A., klasik bir Türk yapımı."
+   },
+   {
+    "role": "user",
+    "content": "türk filmi olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Türk yapımı istersen: 1) Babam ve Oğlum, duygusal ve çok sevilen. 2) Afacanlar, eğlenceli ve kısa. 3) Aile, bol kahkahalı ve sıcak."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bir hikaye uydur, konusu sen seç"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir sabah, güneş yeni yeni doğarken, küçük Kerem deniz kıyısına gitti. Kumsalda yürürken ağlayan bir kız gördü. Kızın adı Mina'ydı. \"Ne oldu?\" diye sordu Kerem. \"Annemi kaybettim,\" dedi Mina. Kerem hemen yardım etmeye karar verdi. \"Sen annene söz vermiştin ya, şimdi onu bulalım!\" dedi. Kerem deniz kıyısında uzun süre aradı. Kumsalda baktı, kayaların arkasına baktı. Ama Mina'yı bulamadı. O sırada denizin içinde bir şey parladı. Küçük bir sarı yavru köpek balığı gördü. Bu, annesiydi! Mina annesi denizde yavrusunu arıyordu. Yavru köpek balığı annesine koştu ve ikisi kucaklaştı. Mina çok mutlu oldu. Kerem'e teşekkür etti. \"Sen çok iyi bir çocuksun,\" dedi. Kerem gülümsedi. Güneş yükseldi, deniz kıyısı temizlendi. Kerem eve dönerken Mina ona el salladı. Kerem de el salladı. O günden sonra Kerem ve Mina en iyi arkadaş oldular. Her gün deniz kıyısında birlikte oynadılar. Kerem artık hiç yalnız değildi."
+   },
+   {
+    "role": "user",
+    "content": "kahraman kim"
+   },
+   {
+    "role": "assistant",
+    "content": "Kahramanın adı Kerem."
+   },
+   {
+    "role": "user",
+    "content": "devam et"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir gün Kerem deniz kıyısında yürürken bir ses duydu. Ağacın altında küçük bir kız oturuyordu. Kız ağlıyordu. \"Ne oldu?\" diye sordu Kerem. \"Annemin kayıp şapkası! Onu bulamıyorum,\" dedi kız. Kerem hemen yardım etmeye karar verdi. \"Sen annenle birlikte arayalım!\" dedi. Kerem ve Mina kumlara, kayalıklara, çiçeklerin arkasına baktılar. Sonunda küçük bir kaya dibinde sarı bir şapka gördüler. \"Buldum!\" diye bağırdı Kerem. Kız çok sevindi. \"Teşekkür ederim Kerem! Sen çok iyi bir çocuksun,\" dedi. Kerem gülümsedi. \"İyi ki sana yardım ettim.\" O gece Kerem annesine anlattı. Annesi kızının ağladığını duyunca çok mutlu oldu. \"Sana teşekkür etmek için güzel bir sürprizim var,\" dedi. Kapıyı çaldı. Kapıyı annesi açtı. \"Küçük dostum! Gel, deniz kıyısında bir sürpriz yapalım!\" dedi. Hep birlikte kumdan şato yaptılar. Sarı şapka güneşte parlıyordu. Kerem ve annesi gülen yüzlerle denizi izledi. Kerem o gün çok mutlu oldu ve hikaye burada bitti."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "arkadaşımla küstüm"
+   },
+   {
+    "role": "assistant",
+    "content": "Anlıyorum, küsmek gerçekten zor oluyor. Ne üzerine tartıştınız, anlatmak ister misin?"
+   },
+   {
+    "role": "user",
+    "content": "ben haklıydım ama"
+   },
+   {
+    "role": "assistant",
+    "content": "Haklı olmak bazen yeterli olmuyor bazen de içi boş kalıyor. İkiniz de biraz nefes aldınız mı hiç?"
+   },
+   {
+    "role": "user",
+    "content": "nasıl barışırım"
+   },
+   {
+    "role": "assistant",
+    "content": "Önce kısa bir mesajla 'konuşalım mı' diyebilirsin, bazen buzlar kendiliğinden erir. Sonra yüz yüze ya da telefonla denemek de işe yarar."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana türkiyenin bölgelerini say"
+   },
+   {
+    "role": "assistant",
+    "content": "Türkiye'nin altı bölgesi vardır: kuzeyde Karadeniz, doğuda Anadolu, güneyde Akdeniz, batıda Ege ve Güneydoğu'da yer bilimleri."
+   },
+   {
+    "role": "user",
+    "content": "hangisi en büyük"
+   },
+   {
+    "role": "assistant",
+    "content": "Türkiye'nin en büyük gölü Van Gölü'dür."
+   },
+   {
+    "role": "user",
+    "content": "orada hangi şehirler var"
+   },
+   {
+    "role": "assistant",
+    "content": "Van, Ağrı, Mardin, Diyarbakır, Şanlıurfa, Adana ve Şırnak gibi şehirler var."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "yemek yaparken tuzu fazla kaçırdım"
+   },
+   {
+    "role": "assistant",
+    "content": "Birkaç çare var: soyulmuş bir patatesi bütün olarak ekleyip 15 dakika kaynat, tuzu çeker; su ya da tuzsuz sos ekleyip seyrelt; bir kaşık limon suyu veya yoğurt tuz hissini azaltır. Çorbaysa biraz daha su ve un bulamacı en hızlısı."
+   },
+   {
+    "role": "user",
+    "content": "çorba"
+   },
+   {
+    "role": "assistant",
+    "content": "O zaman bir kase buldur içine bir avuç tuz, biraz su, pul biber, kimyon koy; 10 dakikada biter. Başka bir şey lazımsa söyle, birlikte düşünelim."
+   },
+   {
+    "role": "user",
+    "content": "başka çare"
+   },
+   {
+    "role": "assistant",
+    "content": "Birkaç taze nane yaprağı dondurucuda dursun; bir kaşık yağ ve limonla tavada 5 dakikada ısıtırsın, tuz yok. Bir bardak ayran ya da maden suyu da kurtarır işini."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "çok sıkıldım"
+   },
+   {
+    "role": "assistant",
+    "content": "Şunlardan biri iyi gelir: on dakikalık bir yürüyüş, uzun zamandır aramadığın birini aramak, bir tarif denemek, ya da bir bilmece. İstersen hemen bir hikaye anlatayım."
+   },
+   {
+    "role": "user",
+    "content": "oyun öner"
+   },
+   {
+    "role": "assistant",
+    "content": "Tek başına: Stardew Valley (sakin çiftlik oyunu), Hollow Knight (zor platform), Minecraft. Arkadaşlarla: Among Us, Overcooked, Mario Kart. Masa oyunu istersen Catan veya Codenames."
+   },
+   {
+    "role": "user",
+    "content": "iki kişilik"
+   },
+   {
+    "role": "assistant",
+    "content": "İki kişilik için Race Club en uygunu; hızlı bir parkur, bol alan ve bolca yemek var. Alternatif olarak Double Trouble veya Dixit de iş görür."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "motivasyon cümlesi söyle"
+   },
+   {
+    "role": "assistant",
+    "content": "Tabii: \"Bugün toplantımız başarıyla geçti, herkes çok keyifliydi.\""
+   },
+   {
+    "role": "user",
+    "content": "daha kısa"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir örnek: \"Toplantımız başarıyla geçti, herkes çok keyifliydi.\""
+   },
+   {
+    "role": "user",
+    "content": "bir tane daha"
+   },
+   {
+    "role": "assistant",
+    "content": "Bir tane daha: \"Sabah koşuşturması gibi başlayan bir gün, akşam sakinleşmeyle biter.\""
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bir mektup yaz"
+   },
+   {
+    "role": "assistant",
+    "content": "Olur. Kime ve ne için: teşekkür, özür, tebrik, izin, davet?"
+   },
+   {
+    "role": "user",
+    "content": "öğretmenime teşekkür mektubu"
+   },
+   {
+    "role": "assistant",
+    "content": "Sayın Mehmet Bey,\n\nBu yıl boyunca gösterdiğiniz emek ve sabır için çok teşekkür ederim. Anlamadığım yerde bir daha anlatmanız, her soruma zaman ayırmanız benim için çok değerliydi. Sizin sayenizde dersi sevdim.\n\nSaygılarımla,\nFurkan"
+   },
+   {
+    "role": "user",
+    "content": "adı ayşe hanım"
+   },
+   {
+    "role": "assistant",
+    "content": "Sayın Ayşe Hanım,\n\nBu yıl boyunca gösterdiğiniz emek ve sabır için çok teşekkürler. Anlamadığım yerde bir daha anlatmanız, her sorumu cevaplamanız benim için çok değerliydi. Sizin sayenizde dersi sevdim.*\n\nSaygılarımla,\nFurkan"
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "hangi meslek bana uygun"
+   },
+   {
+    "role": "assistant",
+    "content": "Bunu iki soruyla daraltabiliriz: insanlarla mı yoksa bilgisayarla mı çalışmayı seversin, ve düzenli maaş mı yoksa kendi işin mi? Örneğin insanlar ve düzen diyorsan öğretmenlik, hemşirelik, satış; bilgisayar diyorsan yazılım, muhasebe, tasarım. Sevdiğin dersleri söylersen daha somut önereyim."
+   },
+   {
+    "role": "user",
+    "content": "matematiği severim ve insanlarla konuşmayı"
+   },
+   {
+    "role": "assistant",
+    "content": "O zaman öğretmen olman çok iyi! Sayılarla konuşmayı çok severim, mesela bir konuyu anlatırken sayılar ve değişkenler kullanabilirsin. İletişim becerin gelişsin: sözlü ve yazılı iletişimde rahat ol, ve arkadaşlarına matematik göstermeden önce temel kuralları birkaç kez kendin öğren."
+   },
+   {
+    "role": "user",
+    "content": "üç tane say"
+   },
+   {
+    "role": "assistant",
+    "content": "1) Arkadaşınla anlaşırken söz kesmek. 2) Ders hazırlığında herkese aynı kitabı vermek. 3) Evde kedi beslemeyi sevmek."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bugünün tarihi ne"
+   },
+   {
+    "role": "assistant",
+    "content": "Bunu bilemem. Saati, tarihi veya güncel bilgileri göremiyorum; eğitim verilerimle sınırlıyım ve internete erişimim yok."
+   },
+   {
+    "role": "user",
+    "content": "peki 2023 artık yıl mı"
+   },
+   {
+    "role": "assistant",
+    "content": "2024 yılından kastım bir yıl yok; takvimde tarihi her yıl değişir."
+   },
+   {
+    "role": "user",
+    "content": "artık yıl ne demek"
+   },
+   {
+    "role": "assistant",
+    "content": "Artık yıl, bir takvim yılı gibi görünen, yani bir yıldan daha kısa olan bir tarihtir. 2000 yılından 2023'ü çıkararak 2023 yılına ulaşırsın."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "deniz neden tuzlu"
+   },
+   {
+    "role": "assistant",
+    "content": "Nehirler kayalardan çözdükleri tuzu denize taşır; su buharlaşır, tuz kalır. Binlerce yılda birikir."
+   },
+   {
+    "role": "user",
+    "content": "peki göller neden tuzlu değil"
+   },
+   {
+    "role": "assistant",
+    "content": "Yağmur ve rüzgarla taşınan tortu, nehirlerle göllere karıştı ve orada birikti, o yüzden tuzlu göller oluyor."
+   },
+   {
+    "role": "user",
+    "content": "tuz gölü var ama"
+   },
+   {
+    "role": "assistant",
+    "content": "Çok tuzlanıyor, altı kayalık, karanlık ve mağaralarla kaplı. Kuraklıkta ölürler."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "bana bir tekerleme söyle"
+   },
+   {
+    "role": "assistant",
+    "content": "Tabii, \"Bir Taş Attım Alıca\" adlı halk edebiyatı eserinden okuyayım:\n\nBir taş attım alıca\nBir kuş vurdum delice (oy gelin gelin ne derdim benim)\nÖyle bir yâr sevdim ki\nGözleri sürmelice (oy gelin gelin ne derdim benim)\nElma verdim atarsın\nBoynun eğri tutarsın (oy gelin gelin ne derdim benim)\nEl duydu alem duydu\nKimin dilin tutarsın (oy gelin gelin ne derdim benim)\nElma verdim geline\nAldı soktu beline (oy gelin gelin ne derdim benim)\nYemesini bilmemiş\nVermiş cahil eline (oy gelin gelin ne derdim benim)"
+   },
+   {
+    "role": "user",
+    "content": "daha zor olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "\"Bir Taş Attım Alıca\" yine halk edebiyatı eserinden:\n\nBir taş attım alıca\nBir kuş vurdim delice (oy gelin gelin ne derdim benim)\nÖYLE BİR YÂR SEVMECEĞİ İDDİA\nBU SEVİ GÜZEL İDDİA\nGELİN Mİ OLSA DOLU DOLU İDDİA\nSENİ ÇÜNKÜ SÜTÜMDEN AYRILDI\nBİR TAŞ ATTIN ALICI\nBİR TEPEDEN BİR TEPEYE YOLCU\nBU SEVİ GÜZEL İDDİA NASILDIR\nAşık olmak istiyorsan sevmişsindir\nİKİ ÇİFTE BİR GÜZELDİR\nOYUNDA MI OLSA\nSESİ ÇOK KISA VE CEVAPSIZSA\nCEVAPINI ANLAT BAKSAM DİLİMSEN\nSESI ÇOK UZUNSA GİBİ HAREKETLE\nSESI UZUNSA HAREKETLE..."
+   },
+   {
+    "role": "user",
+    "content": "anlamı ne"
+   },
+   {
+    "role": "assistant",
+    "content": "Anlamı: Konu ya da olay kısa ve çarpıcı biçimde anlatıldı. Tek bir ana mesaj içermekle birlikte, alttan yantoutarak duygu ve heyecan uyandırır."
+   }
+  ],
+  [
+   {
+    "role": "user",
+    "content": "kısa bir özet yaz: Atatürk kimdir"
+   },
+   {
+    "role": "assistant",
+    "content": "Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaşkanıdır. 19 Mayıs 1919'da Samsun'a çıkarak Kurtuluş Savaşı'nı başlatmış, 29 Ekim 1923'te cumhuriyeti ilan ettirmiştir. Harf devrimi, kadın hakları ve eğitimdeki yenilikleriyle modern Türkiye'nin temellerini atmıştır."
+   },
+   {
+    "role": "user",
+    "content": "üç cümle olsun"
+   },
+   {
+    "role": "assistant",
+    "content": "Atatürk, Türkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaşkanıdır. Kurtuluş Savaşı'nı başlatmış, 29 Ekim  kansız bir Cumhuriyet ilan etmiştir. Harf devrimi, kadın hakları ve eğitimdeki yeniliklerle modern Türkiye'nin temellerini atmıştır."
+   },
+   {
+    "role": "user",
+    "content": "doğum yılını da ekle"
+   },
+   {
+    "role": "assistant",
+    "content": "Atatürk 1881'de Selanik'te doğdu. Kurtuluş Savaşı'nı başlatmış, 29 Ekim'i 1923'te Cumhuriyet ilan ettirmiştir. Harf devrimi, kadın hakları ve eğitim reformlarıyla modern Türkiye'nin temellerini atmıştır."
+   }
+  ]
+ ],
+ "scores": [
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 0,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 0,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 0,
+    "coherent": 0,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 1,
+    "deflect": 1
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 0,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 0,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 0,
+    "deflect": 1
+   },
+   {
+    "task": 0,
+    "coherent": 0,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 1,
+    "coherent": 2,
+    "deflect": 1
+   },
+   {
+    "task": 1,
+    "coherent": 2,
+    "deflect": 1
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  null,
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 0,
+    "coherent": 2,
+    "deflect": 1
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 0,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 0,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   },
+   {
+    "task": 1,
+    "coherent": 1,
+    "deflect": 0
+   }
+  ],
+  [
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   },
+   {
+    "task": 2,
+    "coherent": 2,
+    "deflect": 0
+   }
+  ]
+ ]
+}

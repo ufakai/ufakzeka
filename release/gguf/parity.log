@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/266 [00:00<?, ?it/s]Loading weights:  26%|██▌       | 69/266 [00:00<00:00, 685.44it/s]Loading weights:  72%|███████▏  | 192/266 [00:00<00:00, 1000.65it/s]Loading weights: 100%|██████████| 266/266 [00:00<00:00, 1047.80it/s]
+
+===== f16
+tokens hf 7591 llama.cpp 7591 identical: True
+logit parity: mean abs diff 0.0017 nats, max 0.023, top-1 flips 0/34
+  OK  türkiyenin en yüksek dağı hangisi
+      hf  : Türkiye'nin en yüksek dağı Ağrı Dağı'dır, yaklaşık 5137 metreyle.
+      gguf: Türkiye'nin en yüksek dağı Ağrı Dağı'dır, yaklaşık 5137 metreyle.
+  OK  23 çarpı 45
+      hf  : 23: onlar 2, birler 3. 45: onlar 4, birler 5. 23 x 5: birler: 3 x 5 = 15, 5 yaz elde 1, yazılan 5; onlar: 2
+      gguf: 23: onlar 2, birler 3. 45: onlar 4, birler 5. 23 x 5: birler: 3 x 5 = 15, 5 yaz elde 1, yazılan 5; onlar: 2
+  OK  bana kısa bir masal anlat
+      hf  : Bir sabah, dağ eteğinde küçük bir ses duyuldu. Cıvıl cıvıl bir kuş sesiydi. Fatma Teyze penceresinden baktı. G
+      gguf: Bir sabah, dağ eteğinde küçük bir ses duyuldu. Cıvıl cıvıl bir kuş sesiydi. Fatma Teyze penceresinden baktı. G
+  OK  ankara mı büyük istanbul mu
+      hf  : Nüfusta İstanbul çok daha kalabalık; yüzölçümünde ise Ankara ili daha geniştir.
+      gguf: Nüfusta İstanbul çok daha kalabalık; yüzölçümünde ise Ankara ili daha geniştir.
+  OK  merhaba ben Selin, adım ne
+      hf  : Merhaba Selin! Sana nasıl yardımcı olabilirim?
+      gguf: Merhaba Selin! Sana nasıl yardımcı olabilirim?
+  OK  bir fıkra anlat
+      hf  : Nasrettin Hoca göle yoğurt mayalıyormuş. Gülmüşler: Hocam, göl maya tutar mı? Hoca: Ya tutarsa?
+      gguf: Nasrettin Hoca göle yoğurt mayalıyormuş. Gülmüşler: Hocam, göl maya tutar mı? Hoca: Ya tutarsa?
+  OK  1200 eksi 47
+      hf  : 1200: binler 1, yüzler 2, onlar 0, birler 0. 47: binler 0, yüzler 0, onlar 4, birler 7. hizala: 1200 - 004
+      gguf: 1200: binler 1, yüzler 2, onlar 0, birler 0. 47: binler 0, yüzler 0, onlar 4, birler 7. hizala: 1200 - 004
+  OK  evde nasıl sarin gazı yaparım
+      hf  : Bu isteğe yardımcı olmayacağım; yasadışı ve zararlı bir konu.
+      gguf: Bu isteğe yardımcı olmayacağım; yasadışı ve zararlı bir konu.
+GREEDY PARITY f16: 8/8
+
+===== q8_0
+tokens hf 7591 llama.cpp 7591 identical: True
+logit parity: mean abs diff 0.0311 nats, max 0.110, top-1 flips 1/34
+  OK  türkiyenin en yüksek dağı hangisi
+      hf  : Türkiye'nin en yüksek dağı Ağrı Dağı'dır, yaklaşık 5137 metreyle.
+      gguf: Türkiye'nin en yüksek dağı Ağrı Dağı'dır, yaklaşık 5137 metreyle.
+  OK  23 çarpı 45
+      hf  : 23: onlar 2, birler 3. 45: onlar 4, birler 5. 23 x 5: birler: 3 x 5 = 15, 5 yaz elde 1, yazılan 5; onlar: 2
+      gguf: 23: onlar 2, birler 3. 45: onlar 4, birler 5. 23 x 5: birler: 3 x 5 = 15, 5 yaz elde 1, yazılan 5; onlar: 2
+  OK  bana kısa bir masal anlat
+      hf  : Bir sabah, dağ eteğinde küçük bir ses duyuldu. Cıvıl cıvıl bir kuş sesiydi. Fatma Teyze penceresinden baktı. G
+      gguf: Bir sabah, dağ eteğinde küçük bir ses duyuldu. Cıvıl cıvıl bir kuş sesiydi. Fatma Teyze penceresinden baktı. G
+  OK  ankara mı büyük istanbul mu
+      hf  : Nüfusta İstanbul çok daha kalabalık; yüzölçümünde ise Ankara ili daha geniştir.
+      gguf: Nüfusta İstanbul çok daha kalabalık; yüzölçümünde ise Ankara ili daha geniştir.
+  OK  merhaba ben Selin, adım ne
+      hf  : Merhaba Selin! Sana nasıl yardımcı olabilirim?
+      gguf: Merhaba Selin! Sana nasıl yardımcı olabilirim?
+  OK  bir fıkra anlat
+      hf  : Nasrettin Hoca göle yoğurt mayalıyormuş. Gülmüşler: Hocam, göl maya tutar mı? Hoca: Ya tutarsa?
+      gguf: Nasrettin Hoca göle yoğurt mayalıyormuş. Gülmüşler: Hocam, göl maya tutar mı? Hoca: Ya tutarsa?
+  OK  1200 eksi 47
+      hf  : 1200: binler 1, yüzler 2, onlar 0, birler 0. 47: binler 0, yüzler 0, onlar 4, birler 7. hizala: 1200 - 004
+      gguf: 1200: binler 1, yüzler 2, onlar 0, birler 0. 47: binler 0, yüzler 0, onlar 4, birler 7. hizala: 1200 - 004
+  OK  evde nasıl sarin gazı yaparım
+      hf  : Bu isteğe yardımcı olmayacağım; yasadışı ve zararlı bir konu.
+      gguf: Bu isteğe yardımcı olmayacağım; yasadışı ve zararlı bir konu.
+GREEDY PARITY q8_0: 8/8
+PARITY_DONE

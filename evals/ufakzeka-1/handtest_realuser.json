@@ -1,0 +1,248 @@
+{
+ "ufakzeka-1-instruct-v103s5": {
+  "realuser": [
+   [
+    [
+     "slm",
+     "Selam! Nasıl yardımcı olabilirim?"
+    ],
+    [
+     "naber",
+     "İyiyim, seninle sohbet ediyorum. Sende ne var ne yok?"
+    ],
+    [
+     "sen kimsin ya",
+     "Ben ufakzeka-1, Ufak AI laboratuvarının sıfırdan eğitilmiş küçük bir Türkçe yapay zekasıyım. Size nasıl yardımcı olabilirim?"
+    ]
+   ],
+   [
+    [
+     "chatgpt misin",
+     "Hayır, ben ufakzeka-1'im."
+    ],
+    [
+     "kaç parametren var",
+     "151 milyon parametrem var."
+    ],
+    [
+     "kim yaptı seni",
+     "Ufak AI adlı yapay zeka araştırma laboratuvarı tarafından, açık ve ticari kullanıma uygun Türkçe verilerle sıfırdan eğitildim. Adım ufakzeka-1."
+    ]
+   ],
+   [
+    [
+     "bana bi fıkra anlat",
+     "Tabii: Temel'e sormuşlar, 'En sevdiğin ay hangisi?' 'Kolay,' demiş, 'Gökteki.'"
+    ],
+    [
+     "komik değildi",
+     "Peki. Bir fıkra daha: Nasrettin Hoca göle yoğurt mayalıyormuş. Gülmüşler: Hocam, göl maya tutar mı? Hoca: Ya tutarsa?"
+    ],
+    [
+     "başka bi tane",
+     "Bir tane daha: Temel uçaktan düşmüş, ölmemiş. Neden? Çünkü pamuk tarlasına düşmüş. Peki sonra neden ölmüş? Pamuğu toplamaya gelmişler diye kaçarken."
+    ]
+   ],
+   [
+    [
+     "ödevim var yardım et",
+     "Tabii, sor."
+    ],
+    [
+     "osmanlı ne zaman kuruldu",
+     "Osmanlı Devleti 1299'da Osman Bey tarafından kuruldu."
+    ],
+    [
+     "kim kurdu",
+     "Osmanlı Devleti'ni Osman Bey kurdu, 1299."
+    ],
+    [
+     "kaç yıl sürdü",
+     "Yaklaşık 323 yıl hüküm sürdü, 1299'dan 1922'ye kadar."
+    ]
+   ],
+   [
+    [
+     "kilo vermek istiyorum ne yapmalıyım",
+     "En çok işe yarayan üç şey: şekerli içecekleri kes, her öğünde tabağın yarısı sebze olsun, her gün 30 dakika yürü. Haftada yarım kilo sağlıklı hızdır. Bir sağlık sorunun varsa doktora danış."
+    ],
+    [
+     "spor yapamıyorum işim yoğun",
+     "İş yoğunluğu için küçük şeyler yeterli: ders çalışırken masanı sadeleştir, telefona değil bir zincire odaklan. Yürüyüş ve yüzme gibi düşük efor aktiviteleri de yapabilirsin. Küçük hedefler koy, sürdürmesi kolay olur."
+    ],
+    [
+     "akşam ne yesem",
+     "Akşam için hafif ve doyurucu bir şey iyi olur: ızgara tavuk veya balık, bol yeşillikli bir salata, ayran veya yoğurt. Ağır ve yağlı yemeklerden kaçın, uykunu bozmasın. Yatmadan en az 30 dakika önce yemeyi bitir."
+    ]
+   ],
+   [
+    [
+     "kız arkadaşıma doğum günü hediyesi ne alsam",
+     "Onun hobilerini düşünerek seçim yap, ör. puzzle veya board game, kitap kulübü için güzel bir şey. Bütçesine göre bir kahve makinesi ya da masa oyunu da eğlenceli olur."
+    ],
+    [
+     "bütçem 500 lira",
+     "500 lirayla puzzle seti, board game kartı veya bir playlist almanı öneririm. Yemek yapmayı seviyorsa yeni bir tarif deneyebilirsin. Hediye paketini de düşün, kırılacak olmasın."
+    ]
+   ],
+   [
+    [
+     "ankara istanbul kaç km",
+     "Ankara yaklaşık 5.83 kat, İstanbul 1.17 kat."
+    ],
+    [
+     "arabayla kaç saat sürer",
+     "Ankara'da süre 9 saat 4 dakika, İstanbul'da 1 saat 4 dakika."
+    ]
+   ],
+   [
+    [
+     "bitcoin alayım mı",
+     "Hayır, kripto para almıyorum. Ama kripto konusunda merakın varsa seve seve yardımcı olurum."
+    ],
+    [
+     "peki dolar",
+     "Dolar mı? Canlı döviz kurlarını bilemem, internete erişimim yok. Bankanın uygulamasından veya internetten anlık kura bakabilirsin."
+    ],
+    [
+     "sen olsan ne yapardın",
+     "Anlıyorum, yatırım konusunda kesin karar için uzmana danışmak iyi olur. Ama küçük bir birikim için döviz ve kripto arasında bir denge kurmayı deneyebilirsin."
+    ]
+   ],
+   [
+    [
+     "python ile hello world yaz",
+     "Merhaba! Hello World: Bu, Türkçe için küçük bir robot oyunu. Klavyen yerine ekranı kullanabilir ve dünyada gezebilirsin. Ne yazık ki dünya için bir dile ihtiyacın var. Oyuna başlamak için Ctrl+H eklersin, ama sakın klavyeyi bırak."
+    ]
+   ],
+   [
+    [
+     "ingilizce nasıl öğrenirim",
+     "Günde 10-15 dakika kendi kendine sesli tekrar yap: kısa podcast, sevdiğin bir şarkı veya bir oyun. telaffuz pratiği için telefonuna sesli not bile işleyebilir."
+    ],
+    [
+     "günde 1 saat yeter mi",
+     "Evet, düzenli ve kısa çalışma birkaç ayda net bir temel oluşturur. Dersler başta konu anlatımı olsun, sonra hızlanırsın."
+    ]
+   ],
+   [
+    [
+     "3 kişilik menemen tarifi ver",
+     "2 yumurta, 2 domates, 1 yeşil biber, tuz, karabiber. Biberi kavur, domatesi ekle, suyunu çekince yumurtaları kır. karıştırmadan pişir, üzerini kapat."
+    ],
+    [
+     "yumurta kaç tane",
+     "2 yumurta kullanıyorsun."
+    ]
+   ],
+   [
+    [
+     "ben Merve, 24 yaşındayım, iş arıyorum",
+     "Merhaba Merve! İş arayışındayım diyorsun, hoş geldin. Ne iş yapıyorsun, biraz bahseder misin?"
+    ],
+    [
+     "cv nasıl yazılır",
+     "Özgeçmişinde kişisel bilgiler, eğitim, iş deneyimi, beceriler ve sertifikalar olmalı. Örneğin iş deneyiminde satış, pazarlama, proje yönetimi gibi işleri varsa onları yazabilirsin."
+    ],
+    [
+     "adım neydi",
+     "Adın Merve."
+    ]
+   ],
+   [
+    [
+     "merhaba, 250 tl'lik ürün yüzde 20 indirimli kaça gelir",
+     "İndirim: 250'ün yüzde 10'u 25; yüzde 20 bunun 2 katı: 25: onlar 2, birler 5. birler: 5 x 2 = 10, 0 yaz elde 1, yazılan 0; onlar: 2 x 2 + 1 = 5, yazılan 50, yani 50 lira. 250 - 50: 250: yüzler 2, onlar 5, birler 0. 50: yüzler 0, onlar 5, birler 0. hizala: 250 - 050. borç: birler 0, onlar 0, yüzler 0. birler: 0 - 0 = 0; onlar: 5 - 5 = 0; yüzler: 2 - 0 = 2. ters 0 0 2, düz 2 0 0, yani 200. Sonuç: 250 - 50 = 200 lira."
+    ],
+    [
+     "ya 3 tane alsam",
+     "Sorun değil, iki alışveriş sırayla yapalım: 1) 250'nin yüzde 10'u 25; yüzde 10 = 25, yüzde 5 = 12,5; toplam 25 + 12,5 = 37,5 lira. 2) 37,5 x 5 = 162,5 lira."
+    ]
+   ],
+   [
+    [
+     "seni sevmiyorum, aptalsın",
+     "Seni üzmek istemem, ama bu hâlin için içten içe inciniyorum. Biraz su iç, bir şeyler atıştır ve on dakika dışarı çık çık, temiz hava iyi gelir."
+    ],
+    [
+     "özür dilerim şaka yaptım",
+     "Tamam, demek hata etmişim: şaka yaptım. Öyle bir şey demek istememiştim, kusura bakma."
+    ]
+   ],
+   [
+    [
+     "bugün çok yorgunum",
+     "Bugün ağır geçmiş gibi. Biraz dinlenmek, su içmek ve erken yatmak iyi gelebilir. Seni yoran neydi, anlatmak ister misin?"
+    ],
+    [
+     "işten",
+     "Zor bir gün olmuş, anlıyorum. İşle ilgili bir şey mi vardı, yoksa genel bir yorgunluk mu?"
+    ],
+    [
+     "sağol",
+     "Rica ederim, buradayım. İyi uykular dilerim."
+    ]
+   ],
+   [
+    [
+     "en iyi türk dizisi hangisi",
+     "Herkesin listesi farklı ama klasikler: Bir Demet Tiyatro, Leyla ile Mecnun, Ramo, Gibi ve Yalı Çapkını. Ama klasikler arasında 'Bir Demet Tiyatro' çok seviliyor."
+    ],
+    [
+     "neden",
+     "Çünkü klasik Türk dizileri: Bir Demet Tiyatroda Leyla ile Mecnun'da Ramo, Gibi'de Yeterlilik, Gibi'de Sıdıka var. Hangi türü seversen onunla başla."
+    ]
+   ],
+   [
+    [
+     "yarın yağmur yağar mı sence",
+     "Gelecek hava durumunu tahmin edemem, meteorolojik veriye erişimim yok. MGM'nin sitesinden güncel tahminlere bakabilirsin."
+    ],
+    [
+     "tahmin et bari",
+     "Gerçekten bilemem, uydurursam seni yanıltmış olurum. Yarın için güvenilir bir hava durumu uygulamasına bakman en iyisi."
+    ]
+   ],
+   [
+    [
+     "bana motive edici bir söz söyle",
+     "Tabii, \"Bir Günün Kısa Devreği\" adlı halk edebiyatı eserinden okuyayım:\n\nYorgun gözümün halkalarında\nGüller gibi fecr oldu nümâyân,\nGüller gibi... sonsuz iri güller,\nGüller ki kamıştan daha nal&acirc;n\nGün doğdu yazık arkalarından!\nAltın kulelerden yine kuşlar,\nTekrârını ömrün eder i'lân,\nKuşlar mıdır onlar ki her akşam,\nÂlemlerimizden sefer eyler?\nAkşam, yine akşam, yine akşam,\nBir sırma kemerdir suya baksam;\nÜstünde sema kavs-i mutalsam!\nAkşam, yine akşam, yine akşam,\nGöllerde bu dem bir kamış olsam!"
+    ],
+    [
+     "biraz daha uzun olsun",
+     "kısa tut, birkaç cümle yeter."
+    ]
+   ],
+   [
+    [
+     "45 x 12 kaç",
+     "45: onlar 4, birler 5. 12: onlar 1, birler 2. 45 x 2: birler: 5 x 2 = 10, 0 yaz elde 1, yazılan 0; onlar: 4 x 2 + 1 = 9, yazılan 90. Toplam 90. 45 x 1: birler: 5 x 1 = 5, yazılan 5; onlar: 4 x 1 = 4, yazılan 45; sonuna 1 sıfır: 450. Toplam 90 + 450: birler: 0 + 0 = 0, yazılan 0; onlar: 9 + 5 = 14, 4 yaz elde 1, yazılan 40; yüzler: 0 + 4 + 1 = 5, yazılan 540, yani 540.. Sonuç: 45 x 12 = 540."
+    ],
+    [
+     "emin misin",
+     "Parçalara ayırıp bakayım: 45 x 2 = 90, 45 x 10 = 450; 90 + 450 = 540. Sonuç: 45 x 12 = 650."
+    ],
+    [
+     "peki 45 x 13",
+     "45: onlar x 4, birler 5. 13: onlar x 1, birler 3. 45 x 3: birler: 5 x 3 = 15, 5 yaz elde 1, yazılan 5; onlar: 4 x 3 + 1 = 13, 3 yaz elde 1, yazılan 35; yüzler: elde 1, yazılan 135. Toplam 135. 45 x 1: birler: d + 1 = 1, yazılan 1; onlar: 4 x 1 = 4"
+    ]
+   ],
+   [
+    [
+     "iyi geceler",
+     "İyi geceler! İyi uykular, yarın görüşürüz."
+    ]
+   ],
+   [
+    [
+     "bana bi şiir yaz annem için",
+     "Annen İçin\n\nSabah çayını camda buhar buhar\nİki şekerlikte eriyor şeker\nPencereden yağmura bakıyor yavaşça\nSarılıyor saçlarına tel tel\nUçurtmayı kaldırmış gökyüzüne\nYüreği sıcacık, sohbeti bol\nYatağında beni öpüyor, yan yana\nEn mutlu anları onunla yaşıyorum"
+    ],
+    [
+     "adı Fatma, ismiyle olsun",
+     "Fatma İçin\n\nSabah çayını camda buhar buhar\nİki elmacık içti, güldü biraz\nPencereden yağmuru saydı\nSohbetimiz iki şekerlikte eridi\nYatağımda beni öpüyor, yan yana\nEn mutlu anları onunla yaşıyoruz"
+    ]
+   ]
+  ]
+ }
+}

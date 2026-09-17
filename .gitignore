@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.bin
+*.parquet
+*.jsonl*
+/data/
+wandb/
+.DS_Store
+models/

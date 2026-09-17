@@ -1,0 +1,125 @@
+{
+ "hellaswag_tr": {
+  "acc,none": 0.2744,
+  "acc_norm,none": 0.2917
+ },
+ "arc_tr_challenge": {
+  "acc,none": 0.1921,
+  "acc_norm,none": 0.2357
+ },
+ "arc_tr_easy": {
+  "acc,none": 0.2804,
+  "acc_norm,none": 0.2859
+ },
+ "xcopa_tr": {
+  "acc,none": 0.546
+ },
+ "belebele_tur_Latn": {
+  "acc,none": 0.2989,
+  "acc_norm,none": 0.2989
+ },
+ "turblimp_anaphor_agreement": {
+  "acc,none": 0.595,
+  "acc_norm,none": 0.627
+ },
+ "turblimp_argument_structure_ditransitive": {
+  "acc,none": 0.571,
+  "acc_norm,none": 0.522
+ },
+ "turblimp_argument_structure_transitive": {
+  "acc,none": 0.528,
+  "acc_norm,none": 0.565
+ },
+ "turblimp_binding": {
+  "acc,none": 0.489,
+  "acc_norm,none": 0.984
+ },
+ "turblimp_determiners": {
+  "acc,none": 0.516,
+  "acc_norm,none": 1.0
+ },
+ "turblimp_ellipsis": {
+  "acc,none": 0.116,
+  "acc_norm,none": 0.116
+ },
+ "turblimp_irregular_forms": {
+  "acc,none": 0.988,
+  "acc_norm,none": 0.988
+ },
+ "turblimp_island_effects": {
+  "acc,none": 0.751,
+  "acc_norm,none": 0.222
+ },
+ "turblimp_nominalization": {
+  "acc,none": 0.873,
+  "acc_norm,none": 0.847
+ },
+ "turblimp_npi_licensing": {
+  "acc,none": 0.945,
+  "acc_norm,none": 0.378
+ },
+ "turblimp_passives": {
+  "acc,none": 1.0,
+  "acc_norm,none": 0.006
+ },
+ "turblimp_quantifiers": {
+  "acc,none": 0.998,
+  "acc_norm,none": 0.258
+ },
+ "turblimp_relative_clauses": {
+  "acc,none": 0.591,
+  "acc_norm,none": 0.557
+ },
+ "turblimp_scrambling": {
+  "acc,none": 0.977,
+  "acc_norm,none": 0.977
+ },
+ "turblimp_subject_agreement": {
+  "acc,none": 0.558,
+  "acc_norm,none": 0.675
+ },
+ "turblimp_suspended_affixation": {
+  "acc,none": 0.706,
+  "acc_norm,none": 0.979
+ },
+ "turkishmmlu_biology": {
+  "acc,none": 0.18,
+  "acc_norm,none": 0.18
+ },
+ "turkishmmlu_chemistry": {
+  "acc,none": 0.2,
+  "acc_norm,none": 0.2
+ },
+ "turkishmmlu_geography": {
+  "acc,none": 0.17,
+  "acc_norm,none": 0.17
+ },
+ "turkishmmlu_history": {
+  "acc,none": 0.15,
+  "acc_norm,none": 0.15
+ },
+ "turkishmmlu_mathematics": {
+  "acc,none": 0.2,
+  "acc_norm,none": 0.2
+ },
+ "turkishmmlu_philosophy": {
+  "acc,none": 0.21,
+  "acc_norm,none": 0.21
+ },
+ "turkishmmlu_physics": {
+  "acc,none": 0.17,
+  "acc_norm,none": 0.17
+ },
+ "turkishmmlu_religion_and_ethics": {
+  "acc,none": 0.14,
+  "acc_norm,none": 0.14
+ },
+ "turkishmmlu_turkish_language_and_literature": {
+  "acc,none": 0.22,
+  "acc_norm,none": 0.22
+ },
+ "turblimp_core": {
+  "acc_norm,none": 0.6063
+ },
+ "_sec": 565
+}
