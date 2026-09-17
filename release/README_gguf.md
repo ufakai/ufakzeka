@@ -2,6 +2,7 @@
 language: tr
 license: apache-2.0
 base_model: ufakai/ufakzeka-1
+base_model_relation: quantized
 pipeline_tag: text-generation
 tags:
   - turkish

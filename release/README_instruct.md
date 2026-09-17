@@ -4,6 +4,7 @@ license: apache-2.0
 library_name: transformers
 pipeline_tag: text-generation
 base_model: ufakai/ufakzeka-1-base
+base_model_relation: finetune
 tags:
   - turkish
   - small-language-model

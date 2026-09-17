@@ -81,7 +81,7 @@ def main():
         ggufs = sorted(f for f in os.listdir(a.gguf_dir) if f.endswith(".gguf"))
         items = [(os.path.join(a.gguf_dir, f), f) for f in ggufs]
         # the card promises the pre-tokenizer patch and the checksums next to the files
-        items += [("release/llama.cpp-ufakzeka-pretok.patch", "llama.cpp-ufakzeka-pretok.patch"), ("release/v103s5/SHA256SUMS", "SHA256SUMS")]
+        items += [("release/llama.cpp-ufakzeka-pretok.patch", "llama.cpp-ufakzeka-pretok.patch"), ("release/SHA256SUMS", "SHA256SUMS")]
         card = CARD_GGUF if os.path.exists(CARD_GGUF) else CARD_INSTRUCT
         upload(api, f"{a.org}/{a.name}-GGUF", items, card, a.do, a.private)
     if not a.do:
