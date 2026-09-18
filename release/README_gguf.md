@@ -12,7 +12,7 @@ tags:
 
 # ufakzeka-1 GGUF
 
-GGUF builds of `ufakai/ufakzeka-1`, a 151M parameter Turkish chat model trained from scratch by ufak AI. They need a llama.cpp built with the pre-tokenizer patch in this repository; stock llama.cpp, Ollama and LM Studio will run them once the patch is upstream. The architecture is plain Qwen3.
+GGUF builds of `ufakai/ufakzeka-1`, a 151M parameter Turkish chat model trained from scratch by ufak AI. The pre-tokenizer was merged into llama.cpp on 18 September 2026, so a llama.cpp built from master after that date runs them as is; older builds need the patch in this repository, and Ollama and LM Studio will run them once they ship a llama.cpp with the change. The architecture is plain Qwen3.
 
 | file | size | parity with transformers |
 |---|---|---|
@@ -29,7 +29,7 @@ Sampling: temperature 0.3, top_p 0.9, top_k 40, no repetition penalty and no DRY
 
 ## Tokenizer note
 
-The tokenizer is a byte-level BPE trained on Turkish whose pre-tokenizer is the Qwen2 pattern **without** the English contraction rule (`'s`, `'d`, `'m`, `'ll`...). That rule would split Turkish apostrophe suffixes such as `Ankara'da` and `Ali'den` differently from training. The GGUF declares `tokenizer.ggml.pre = "ufakzeka"`; llama.cpp builds that do not know this name refuse the file with `unknown pre-tokenizer type: 'ufakzeka'`. Apply `llama.cpp-ufakzeka-pretok.patch` from this repository to your checkout and rebuild; the files themselves need no change. The patch was cut against llama.cpp commit `b49650a` of 17 September 2026 and applies cleanly there; a newer tree may reject it, and the changes are 15 lines in 4 files, small enough to make by hand. A file renamed to the `qwen2` rule would load, but that rule splits every suffix that starts with d, t, s, m or v after an apostrophe (`Ankara'da` becomes `'d` + `a`), and on a short apostrophe-heavy Turkish sample (about 3,500 characters of Wikipedia) perplexity rose from 15.4 to 19.0 and two of six greedy answers changed, so no such file is published. The patch has not been submitted upstream yet.
+The tokenizer is a byte-level BPE trained on Turkish whose pre-tokenizer is the Qwen2 pattern **without** the English contraction rule (`'s`, `'d`, `'m`, `'ll`...). That rule would split Turkish apostrophe suffixes such as `Ankara'da` and `Ali'den` differently from training. The GGUF declares `tokenizer.ggml.pre = "ufakzeka"`; llama.cpp builds that do not know this name refuse the file with `unknown pre-tokenizer type: 'ufakzeka'`. Apply `llama.cpp-ufakzeka-pretok.patch` from this repository to your checkout and rebuild; the files themselves need no change. The patch was cut against llama.cpp commit `b49650a` of 17 September 2026 and applies cleanly there; a newer tree may reject it, and the changes are 15 lines in 4 files, small enough to make by hand. A file renamed to the `qwen2` rule would load, but that rule splits every suffix that starts with d, t, s, m or v after an apostrophe (`Ankara'da` becomes `'d` + `a`), and on a short apostrophe-heavy Turkish sample (about 3,500 characters of Wikipedia) perplexity rose from 15.4 to 19.0 and two of six greedy answers changed, so no such file is published. The patch was merged into llama.cpp on 18 September 2026 (commit dc85f89); it stays here for builds older than that.
 
 ## Limitations
 
