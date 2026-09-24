@@ -12,6 +12,8 @@ tags:
 
 # ufakzeka-1 GGUF
 
+Technical report: [arXiv:2609.25081](https://arxiv.org/abs/2609.25081)
+
 GGUF builds of `ufakai/ufakzeka-1`, a 151M parameter Turkish chat model trained from scratch by ufak AI. The pre-tokenizer was merged into llama.cpp on 18 September 2026, so a llama.cpp built from master after that date runs them as is; older builds need the patch in this repository, and Ollama and LM Studio will run them once they ship a llama.cpp with the change. The architecture is plain Qwen3.
 
 | file | size | parity with transformers |
@@ -39,10 +41,12 @@ The tokenizer is a byte-level BPE trained on Turkish whose pre-tokenizer is the 
 
 ```
 @misc{ufakzeka1,
-  title        = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
-  author       = {Teke, Sait Furkan},
-  year         = {2026},
-  howpublished = {Technical report, ufak AI},
-  url          = {https://ufakai.com/reports/ufakzeka-1.pdf}
+  title         = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
+  author        = {Teke, Sait Furkan},
+  year          = {2026},
+  eprint        = {2609.25081},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2609.25081}
 }
 ```

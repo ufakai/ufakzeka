@@ -31,6 +31,8 @@ datasets:
 
 # ufakzeka-1
 
+Technical report: [arXiv:2609.25081](https://arxiv.org/abs/2609.25081)
+
 ufakzeka-1 is a 151M parameter (182M with embeddings) Turkish language model trained from scratch by ufak AI on 13.5B tokens of openly licensed text, then instruction tuned for chat. It is the first model of the ufakzeka family and a proof of the full pipeline: data filtering, tokenizer, pretraining, post-training, evaluation and release, all for under $300 of compute and API spend.
 
 Two checkpoints are released:
@@ -135,11 +137,13 @@ The model was trained to refuse requests for weapons, poisons, drugs and harming
 
 ```
 @misc{ufakzeka1,
-  title        = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
-  author       = {Teke, Sait Furkan},
-  year         = {2026},
-  howpublished = {Technical report, ufak AI},
-  url          = {https://ufakai.com/reports/ufakzeka-1.pdf}
+  title         = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
+  author        = {Teke, Sait Furkan},
+  year          = {2026},
+  eprint        = {2609.25081},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2609.25081}
 }
 ```
 

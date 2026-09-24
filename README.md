@@ -7,7 +7,7 @@ The first model is **ufakzeka-1**, 151M parameters, pretrained on 13.5B tokens a
 - Weights: [ufakai/ufakzeka-1](https://huggingface.co/ufakai/ufakzeka-1) (chat), [ufakai/ufakzeka-1-base](https://huggingface.co/ufakai/ufakzeka-1-base), [ufakai/ufakzeka-1-GGUF](https://huggingface.co/ufakai/ufakzeka-1-GGUF)
 - Try it: [chat.ufakzeka.com](https://chat.ufakzeka.com)
 - Model site: [ufakzeka.com](https://ufakzeka.com)
-- Technical report: [docs/report/ufakzeka1.pdf](docs/report/ufakzeka1.pdf)
+- Technical report: [arXiv:2609.25081](https://arxiv.org/abs/2609.25081), source and PDF in [docs/report](docs/report)
 
 ## What is here
 
@@ -46,11 +46,13 @@ The jobs run on [Modal](https://modal.com); `modal/train.py`, `modal/sft.py` and
 
 ```
 @misc{ufakzeka1,
-  title        = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
-  author       = {Teke, Sait Furkan},
-  year         = {2026},
-  howpublished = {Technical report, ufak AI},
-  url          = {https://ufakai.com/reports/ufakzeka-1.pdf}
+  title         = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
+  author        = {Teke, Sait Furkan},
+  year          = {2026},
+  eprint        = {2609.25081},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2609.25081}
 }
 ```
 

@@ -22,6 +22,8 @@ datasets:
 
 # ufakzeka-1-base
 
+Technical report: [arXiv:2609.25081](https://arxiv.org/abs/2609.25081)
+
 ufakzeka-1 is a 151M parameter (182M with embeddings) Turkish language model trained from scratch by ufak AI on 13.5B tokens of openly licensed text. This is the base checkpoint: a plain `Qwen3ForCausalLM` with a 4,096 token context and no custom code, meant for continued pretraining, fine tuning and research. For chat use `ufakai/ufakzeka-1`.
 
 It is a text continuation model. It completes Turkish text fluently (TurBLiMP 92.4, grammar), knows encyclopedia level facts at the rate a 151M model can hold them, and has seen Turkish web and Wikipedia text up to August 2026. It is not instruction tuned and will not follow requests.
@@ -76,10 +78,12 @@ A 151M model trained on web text: it will complete prompts with wrong facts, can
 
 ```
 @misc{ufakzeka1,
-  title        = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
-  author       = {Teke, Sait Furkan},
-  year         = {2026},
-  howpublished = {Technical report, ufak AI},
-  url          = {https://ufakai.com/reports/ufakzeka-1.pdf}
+  title         = {ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch},
+  author        = {Teke, Sait Furkan},
+  year          = {2026},
+  eprint        = {2609.25081},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2609.25081}
 }
 ```
